@@ -1,1 +1,180 @@
-Echo html
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Heat maps</title>
+
+<script src="cal-heatmap-master/jquery-3.4.1.min.js"></script>
+<script src="cal-heatmap-master/test/d3.min.js"></script>
+
+<link rel="stylesheet" href="cal-heatmap-master/cal-heatmap.css" />
+<script type="text/javascript" src="cal-heatmap-master/cal-heatmap.js"></script>
+
+</head>
+
+<body>
+        <br><br>
+
+        <span>
+                <button class="btn" id="domainDynamicDimension-previous"> PREVIOUS </button>
+                <button class="btn" id="domainDynamicDimension-next">NEXT</button>
+        </span>
+        <br><br>
+
+        <div id="pub-heatmap"></div>
+        <br><br>
+        <div id="resultClick"></div>
+
+
+
+<script type="text/javascript">
+
+var parser = function(data) {
+	var stats = {};
+	for (var d in data) {
+		stats[data[d].date] = data[d].value;
+	}
+	return stats;
+};
+
+
+$(document).ready ( function(){
+
+
+
+
+        d3.json("naturalization-ceremonies.json", function(data) {
+
+
+            var dataForInput={};
+            for (var i = 0; i < data.length; i++) {
+                //console.log(data[i].date);
+                if(data[i].date != undefined ){
+                    var dateIs = new Date(data[i].date);
+                    var secondsIs = dateIs.getTime() / 1000;  
+                    if(dataForInput[secondsIs]==undefined){
+                        dataForInput[secondsIs] =  1;
+                    }else{
+                        dataForInput[secondsIs] =  dataForInput[secondsIs] + 1;
+                    }
+//                    console.log(dataForInput[secondsIs]);
+                }
+            }
+           
+
+/*var datas = [
+	{date: 1578373200, value: 1},
+	{date: 1579064400, value: 1},
+	{date: 1584504000, value: 1}
+];
+*/
+//console.log(dataForInput);
+
+ //           {
+//	"timestamp": value,/
+//	"timestamp2": value2,
+//	...
+//}
+
+
+
+            var pub = new CalHeatMap();
+            pub.init({
+                itemSelector: "#pub-heatmap",
+                domain :"month",
+                subDomain:"day",
+                cellSize: 20,
+                data:dataForInput,
+                //afterLoadData: parser,
+
+                subDomainTextFormat: "%d",
+                domainGutter:5,
+                range: 4,
+                displayLegend: true,
+
+                nextSelector: "#domainDynamicDimension-next",
+                previousSelector: "#domainDynamicDimension-previous",
+                onMinDomainReached: function(hit) {
+                if (hit) {
+                    $("#domainDynamicDimension-previous").attr("disabled", "disabled");
+                } else {
+
+                    $("#domainDynamicDimension-previous").attr("disabled", false);
+                }
+            },
+            onMaxDomainReached: function(hit) {
+                if (hit) {
+
+                    $("#domainDynamicDimension-next").attr("disabled", "disabled");
+                } else {
+
+                    $("#domainDynamicDimension-next").attr("disabled", false);
+                }
+            },
+
+
+                rowLimit: 6,
+                tooltip: true,
+                start: new Date(2020, 0, 1),
+                minDate: new Date(2020, 0, 1),
+                maxDate: new Date(2020, 11,31),
+
+                legendColors: ["#ecf5e2", "#232181"],
+                legend: [1, 2, 3, 4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+
+                onClick: function(date, nb) {
+                   // console.log('okok');
+                    $("#resultClick").html("Details <br> Date: <b>" +
+                            Date + "</b><br/>Events: <b>" +
+                        (nb === null ? "0" : nb) + "</b>"
+                    );
+                    
+
+                    var selectedDateSec=date.getTime();
+                    var d1=date.toISOString();
+                    
+                   // console.log(Date.parse(date.toString());
+
+                    //console.log(selectedDateSec);
+                   // for (var i = 0; i < 10; i++) {
+                    
+                    //    if(data[i].date != undefined ){
+                    
+                            /*var dateTo=new Date(data[i].date);
+                            var secTo=dateTo.getTime() ;
+                            console.log(selectedDateSec===secTo);
+                            if( selectedDateSec === secTo ){
+                            //if(date.toISOString()===data[i].date){        
+                                console.log('bbomommom');
+                            }
+                            */
+                      //      var d2= new Date(data[i].date).toISOString();
+                           // if (d1 === d2) {
+                      //          console.log (d1+"==d1 less=="+d2);
+                           // }
+                            
+                    //    }
+                  //  }
+                    //date.toISOString()
+                }
+
+            });
+
+
+        
+        
+        
+        });// END OF JSON FILE LOAD 
+
+
+           
+
+
+
+});//END OF FUNCTION LOAD DOCUMNET
+</script>
+
+
+
+</body>
+</html>
