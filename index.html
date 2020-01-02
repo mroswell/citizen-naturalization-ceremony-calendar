@@ -20,7 +20,6 @@
                 <button class="btn" id="domainDynamicDimension-next">NEXT</button>
         </span>
         <br><br>
-
         <div id="pub-heatmap"></div>
         <br><br>
         <div id="resultClick"></div>
@@ -125,36 +124,39 @@ $(document).ready ( function(){
                 onClick: function(date, nb) {
                    // console.log('okok');
                     $("#resultClick").html("Details <br> Date: <b>" +
-                            Date + "</b><br/>Events: <b>" +
+                            date + "</b><br/>Total Events: <b>" +
                         (nb === null ? "0" : nb) + "</b>"
                     );
                     
 
-                    var selectedDateSec=date.getTime();
-                    var d1=date.toISOString();
-                    
-                   // console.log(Date.parse(date.toString());
+                    var d1=date.getDate();
+                    var m1=date.getMonth();
+                    var y1=date.getFullYear();
 
+                    //console.log(d1);
+                   // console.log(Date.parse(date.toString());
                     //console.log(selectedDateSec);
-                   // for (var i = 0; i < 10; i++) {
-                    
-                    //    if(data[i].date != undefined ){
-                    
-                            /*var dateTo=new Date(data[i].date);
-                            var secTo=dateTo.getTime() ;
-                            console.log(selectedDateSec===secTo);
-                            if( selectedDateSec === secTo ){
-                            //if(date.toISOString()===data[i].date){        
-                                console.log('bbomommom');
+                    var eventNum=1;
+                    for (var i = 0; i < data.length; i++) {
+
+                       if(data[i].date != undefined ){
+                            var dateTo=new Date(data[i].date);
+                            var d2=dateTo.getDate();
+                            var m2=dateTo.getMonth();
+                            var y2=dateTo.getFullYear();
+                            if (d1 == d2 && m1==m2 && y1==y2) {
+                                console.log (d2+"==d1"+ m2+" less=="+y2);
+                                if(data[i].url == undefined){
+                                    $("#resultClick").append("<br> <span > no URL found to register for event " + eventNum  +"</span> ");
+                                }else{
+                                    $("#resultClick").append("<br> <a href='>" + data[i].url +"'> Click to register event "+ eventNum  +"</a> ");
+                                }
+                                
+                                eventNum = eventNum+1;
                             }
-                            */
-                      //      var d2= new Date(data[i].date).toISOString();
-                           // if (d1 === d2) {
-                      //          console.log (d1+"==d1 less=="+d2);
-                           // }
                             
-                    //    }
-                  //  }
+                        }
+                    }
                     //date.toISOString()
                 }
 
