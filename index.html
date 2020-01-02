@@ -5,7 +5,7 @@
 <title>Heat maps</title>
 
 <script src="cal-heatmap-master/jquery-3.4.1.min.js"></script>
-<script src="cal-heatmap-master/test/d3.min.js"></script>
+<script src="cal-heatmap-master/d3.min.js"></script>
 
 <link rel="stylesheet" href="cal-heatmap-master/cal-heatmap.css" />
 <script type="text/javascript" src="cal-heatmap-master/cal-heatmap.js"></script>
@@ -14,10 +14,9 @@
 
 <body>
         <br><br>
-
         <span>
-                <button class="btn" id="domainDynamicDimension-previous"> PREVIOUS </button>
-                <button class="btn" id="domainDynamicDimension-next">NEXT</button>
+            <button class="btn" id="domainDynamicDimension-previous"> PREVIOUS </button>
+            <button class="btn" id="domainDynamicDimension-next">NEXT</button>
         </span>
         <br><br>
         <div id="pub-heatmap"></div>
@@ -43,39 +42,19 @@ $(document).ready ( function(){
 
 
         d3.json("naturalization-ceremonies.json", function(data) {
-
-
             var dataForInput={};
             for (var i = 0; i < data.length; i++) {
                 //console.log(data[i].date);
                 if(data[i].date != undefined ){
                     var dateIs = new Date(data[i].date);
-                    var secondsIs = dateIs.getTime() / 1000;  
+                    var secondsIs = dateIs.getTime() / 1000;
                     if(dataForInput[secondsIs]==undefined){
                         dataForInput[secondsIs] =  1;
                     }else{
                         dataForInput[secondsIs] =  dataForInput[secondsIs] + 1;
-                    }
-//                    console.log(dataForInput[secondsIs]);
-                }
+                   }
+               }
             }
-           
-
-/*var datas = [
-	{date: 1578373200, value: 1},
-	{date: 1579064400, value: 1},
-	{date: 1584504000, value: 1}
-];
-*/
-//console.log(dataForInput);
-
- //           {
-//	"timestamp": value,/
-//	"timestamp2": value2,
-//	...
-//}
-
-
 
             var pub = new CalHeatMap();
             pub.init({
@@ -85,7 +64,6 @@ $(document).ready ( function(){
                 cellSize: 20,
                 data:dataForInput,
                 //afterLoadData: parser,
-
                 subDomainTextFormat: "%d",
                 domainGutter:5,
                 range: 4,
@@ -127,7 +105,6 @@ $(document).ready ( function(){
                             date + "</b><br/>Total Events: <b>" +
                         (nb === null ? "0" : nb) + "</b>"
                     );
-                    
 
                     var d1=date.getDate();
                     var m1=date.getMonth();
@@ -145,16 +122,15 @@ $(document).ready ( function(){
                             var m2=dateTo.getMonth();
                             var y2=dateTo.getFullYear();
                             if (d1 == d2 && m1==m2 && y1==y2) {
-                                console.log (d2+"==d1"+ m2+" less=="+y2);
+                                //console.log (d2+"==d1"+ m2+" less=="+y2);
                                 if(data[i].url == undefined){
                                     $("#resultClick").append("<br> <span > no URL found to register for event " + eventNum  +"</span> ");
                                 }else{
-                                    $("#resultClick").append("<br> <a href='>" + data[i].url +"'> Click to register event "+ eventNum  +"</a> ");
+                                    $("#resultClick").append("<br> <a href='" + data[i].url +"'> Click to register event "+ eventNum  +"</a> ");
                                 }
-                                
                                 eventNum = eventNum+1;
                             }
-                            
+
                         }
                     }
                     //date.toISOString()
@@ -162,14 +138,7 @@ $(document).ready ( function(){
 
             });
 
-
-        
-        
-        
         });// END OF JSON FILE LOAD 
-
-
-           
 
 
 
