@@ -70,11 +70,17 @@
             <option value="WI">Wisconsin</option>
             <option value="WY">Wyoming</option>
         </select>
-        <button class="btn" id="domainDynamicDimension-previous"> PREVIOUS </button>
-        <button class="btn" id="domainDynamicDimension-next">NEXT</button>
+        <!--button class="btn" id="domainDynamicDimension-previous"> PREVIOUS </button-->
+        <!--button class="btn" id="domainDynamicDimension-next">NEXT</button-->
     </span>
     <br><br>
-    <div id="pub-heatmap"></div>
+    <div id="pub-heatmap-1"></div>
+    <br><br>
+    <div id="pub-heatmap-2"></div>
+    <br><br>
+    <div id="pub-heatmap-3"></div>
+    <br><br>
+    <div id="pub-heatmap-4"></div>
     <br><br>
     <div id="resultClick"></div>
 
@@ -89,31 +95,22 @@ var parser = function(data) {
 };
 
 
-$(document).ready ( function(){
-
-
-    $("#states_field").change(function(){
+$(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION 
+    $("#states_field").change(function(){ //EVENT FOR THE DROP DOWN VALUE CHANGE 
         console.log("The text has been changed."+ $("#states_field  option:selected").val());
         var selected_state=$("#states_field  option:selected").val();
-
-
     });
 
-        d3.json("naturalization-ceremonies.json", function(data) {
+        d3.json("naturalization-ceremonies.json", function(data) { // START LOADING THE JSON
             var dataForInput={};
             for (var i = 0; i < data.length; i++) {
-                //console.log(data[i].date);
-
                 if(data[i].date != undefined ){
-                
-                    var stateL=data[i].abbrev;
+                   var stateL=data[i].abbrev;
                     if(stateL != undefined){
-                    //    var stateIs=stateL.trim().split(",")[1].trim().split(" ")[0];
+                        //var stateIs=stateL.trim().split(",")[1].trim().split(" ")[0];
                         var stateIs=stateL.substr(0, 2);
-                       // console.log(stateL + "*****" + stateIs );
+                       //console.log(stateL + "*****" + stateIs );
                     }
-                
-                
                     var dateIs = new Date(data[i].date);
                     var secondsIs = dateIs.getTime() / 1000;
                     if(dataForInput[secondsIs]==undefined){
@@ -124,9 +121,9 @@ $(document).ready ( function(){
                }
             }
 
-            var pub = new CalHeatMap();
-            pub.init({
-                itemSelector: "#pub-heatmap",
+            var pub1 = new CalHeatMap();
+            pub1.init({ //START INITIALIZE THE HEATMAP  1 
+                itemSelector: "#pub-heatmap-1",
                 domain :"month",
                 subDomain:"x_day",
                 cellSize: 20,
@@ -134,31 +131,12 @@ $(document).ready ( function(){
                 //afterLoadData: parser,
                 subDomainTextFormat: "%d",
                 domainGutter:5,
-                range: 4,
-                displayLegend: true,
+                range: 3,
+                displayLegend: false,
 
                 nextSelector: "#domainDynamicDimension-next",
                 previousSelector: "#domainDynamicDimension-previous",
-                onMinDomainReached: function(hit) {
-                if (hit) {
-                    $("#domainDynamicDimension-previous").attr("disabled", "disabled");
-                } else {
-
-                    $("#domainDynamicDimension-previous").attr("disabled", false);
-                }
-            },
-            onMaxDomainReached: function(hit) {
-                if (hit) {
-
-                    $("#domainDynamicDimension-next").attr("disabled", "disabled");
-                } else {
-
-                    $("#domainDynamicDimension-next").attr("disabled", false);
-                }
-            },
-
-
-                rowLimit: 6,
+                weekStartOnMonday: false,
                 tooltip: true,
                 start: new Date(2020, 0, 1),
                 minDate: new Date(2020, 0, 1),
@@ -168,19 +146,14 @@ $(document).ready ( function(){
                 legend: [1, 2, 3, 4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
 
                 onClick: function(date, nb) {
-                   // console.log('okok');
                     $("#resultClick").html("Details <br> Date: <b>" +
                             date + "</b><br/>Total Events: <b>" +
                         (nb === null ? "0" : nb) + "</b>"
                     );
-
                     var d1=date.getDate();
                     var m1=date.getMonth();
                     var y1=date.getFullYear();
 
-                    //console.log(d1);
-                   // console.log(Date.parse(date.toString());
-                    //console.log(selectedDateSec);
                     var eventNum=1;
                     for (var i = 0; i < data.length; i++) {
 
@@ -201,7 +174,192 @@ $(document).ready ( function(){
                     }
                 }
 
-            });
+            }); //END OF HEAT MAP CREATION INITIATLIZE
+
+
+
+
+            var pub2 = new CalHeatMap();
+            pub2.init({ //START INITIALIZE THE HEATMAP  1 
+                itemSelector: "#pub-heatmap-2",
+                domain :"month",
+                subDomain:"x_day",
+                cellSize: 20,
+                data:dataForInput,
+                //afterLoadData: parser,
+                subDomainTextFormat: "%d",
+                domainGutter:5,
+                range: 3,
+                displayLegend: false,
+
+                nextSelector: "#domainDynamicDimension-next",
+                previousSelector: "#domainDynamicDimension-previous",
+                weekStartOnMonday: false,
+                tooltip: true,
+                start: new Date(2020, 3, 1),
+                minDate: new Date(2020, 0, 1),
+                maxDate: new Date(2020, 11,31),
+
+                legendColors: ["#ecf5e2", "#232181"],
+                legend: [1, 2, 3, 4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+
+                onClick: function(date, nb) {
+                    $("#resultClick").html("Details <br> Date: <b>" +
+                            date + "</b><br/>Total Events: <b>" +
+                        (nb === null ? "0" : nb) + "</b>"
+                    );
+                    var d1=date.getDate();
+                    var m1=date.getMonth();
+                    var y1=date.getFullYear();
+
+                    var eventNum=1;
+                    for (var i = 0; i < data.length; i++) {
+
+                       if(data[i].date != undefined ){
+                            var dateTo=new Date(data[i].date);
+                            var d2=dateTo.getDate();
+                            var m2=dateTo.getMonth();
+                            var y2=dateTo.getFullYear();
+                            if (d1 == d2 && m1==m2 && y1==y2) {
+                                if(data[i].url == undefined){
+                                    $("#resultClick").append("<br> <span > no URL found to register for event " + eventNum  +"</span> ");
+                                }else{
+                                    $("#resultClick").append("<br> <a href='" + data[i].url +"'> Click to register event "+ eventNum  +"</a> ");
+                                }
+                                eventNum = eventNum+1;
+                            }
+                        }
+                    }
+                }
+
+            }); //END OF HEAT MAP CREATION INITIATLIZE
+
+
+
+
+
+
+            var pub3 = new CalHeatMap();
+            pub3.init({ //START INITIALIZE THE HEATMAP  1 
+                itemSelector: "#pub-heatmap-3",
+                domain :"month",
+                subDomain:"x_day",
+                cellSize: 20,
+                data:dataForInput,
+                //afterLoadData: parser,
+                subDomainTextFormat: "%d",
+                domainGutter:5,
+                range: 3,
+                displayLegend: false,
+
+                nextSelector: "#domainDynamicDimension-next",
+                previousSelector: "#domainDynamicDimension-previous",
+                weekStartOnMonday: false,
+                tooltip: true,
+                start: new Date(2020, 6, 1),
+                minDate: new Date(2020, 0, 1),
+                maxDate: new Date(2020, 11,31),
+
+                legendColors: ["#ecf5e2", "#232181"],
+                legend: [1, 2, 3, 4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+
+                onClick: function(date, nb) {
+                    $("#resultClick").html("Details <br> Date: <b>" +
+                            date + "</b><br/>Total Events: <b>" +
+                        (nb === null ? "0" : nb) + "</b>"
+                    );
+                    var d1=date.getDate();
+                    var m1=date.getMonth();
+                    var y1=date.getFullYear();
+
+                    var eventNum=1;
+                    for (var i = 0; i < data.length; i++) {
+
+                       if(data[i].date != undefined ){
+                            var dateTo=new Date(data[i].date);
+                            var d2=dateTo.getDate();
+                            var m2=dateTo.getMonth();
+                            var y2=dateTo.getFullYear();
+                            if (d1 == d2 && m1==m2 && y1==y2) {
+                                if(data[i].url == undefined){
+                                    $("#resultClick").append("<br> <span > no URL found to register for event " + eventNum  +"</span> ");
+                                }else{
+                                    $("#resultClick").append("<br> <a href='" + data[i].url +"'> Click to register event "+ eventNum  +"</a> ");
+                                }
+                                eventNum = eventNum+1;
+                            }
+                        }
+                    }
+                }
+
+            }); //END OF HEAT MAP CREATION INITIATLIZE
+
+
+
+
+
+
+
+            var pub4 = new CalHeatMap();
+            pub4.init({ //START INITIALIZE THE HEATMAP  1 
+                itemSelector: "#pub-heatmap-4",
+                domain :"month",
+                subDomain:"x_day",
+                cellSize: 20,
+                data:dataForInput,
+                //afterLoadData: parser,
+                subDomainTextFormat: "%d",
+                domainGutter:5,
+                range: 3,
+                displayLegend: false,
+
+                nextSelector: "#domainDynamicDimension-next",
+                previousSelector: "#domainDynamicDimension-previous",
+                weekStartOnMonday: false,
+                tooltip: true,
+                start: new Date(2020, 9, 1),
+                minDate: new Date(2020, 0, 1),
+                maxDate: new Date(2020, 11,31),
+
+                legendColors: ["#ecf5e2", "#232181"],
+                legend: [1, 2, 3, 4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+
+                onClick: function(date, nb) {
+                    $("#resultClick").html("Details <br> Date: <b>" +
+                            date + "</b><br/>Total Events: <b>" +
+                        (nb === null ? "0" : nb) + "</b>"
+                    );
+                    var d1=date.getDate();
+                    var m1=date.getMonth();
+                    var y1=date.getFullYear();
+
+                    var eventNum=1;
+                    for (var i = 0; i < data.length; i++) {
+
+                       if(data[i].date != undefined ){
+                            var dateTo=new Date(data[i].date);
+                            var d2=dateTo.getDate();
+                            var m2=dateTo.getMonth();
+                            var y2=dateTo.getFullYear();
+                            if (d1 == d2 && m1==m2 && y1==y2) {
+                                if(data[i].url == undefined){
+                                    $("#resultClick").append("<br> <span > no URL found to register for event " + eventNum  +"</span> ");
+                                }else{
+                                    $("#resultClick").append("<br> <a href='" + data[i].url +"'> Click to register event "+ eventNum  +"</a> ");
+                                }
+                                eventNum = eventNum+1;
+                            }
+                        }
+                    }
+                }
+
+            }); //END OF HEAT MAP CREATION INITIATLIZE
+
+
+
+
+
+
 
         });// END OF JSON FILE LOAD 
 
