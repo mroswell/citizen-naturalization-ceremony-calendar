@@ -14,11 +14,11 @@
 
 <body>
     <br><br>
-    <span>
+    <span style="display: -webkit-box;">
         Select State
         <select id='states_field'>
             <option value="all">All States</option>
-            <option value="AL">Alabama</option>
+            <!--option value="AL">Alabama</option>
             <option value="AK">Alaska</option>
             <option value="AZ">Arizona</option>
             <option value="AR">Arkansas</option>
@@ -68,10 +68,20 @@
             <option value="WA">Washington</option>
             <option value="WV">West Virginia</option>
             <option value="WI">Wisconsin</option>
-            <option value="WY">Wyoming</option>
+            <option value="WY">Wyoming</option-->
         </select>
-        <!--button class="btn" id="domainDynamicDimension-previous"> PREVIOUS </button-->
-        <!--button class="btn" id="domainDynamicDimension-next">NEXT</button-->
+       <div id="checkBoxSection">
+            <div id="checkBoxSection">
+                    
+                <div id="TextBoxDiv-S" style="display: inline;"><label><input id="checkbox-S" type="checkbox" checked="">South</label></div>
+                <div id="TextBoxDiv-N" style="display: inline;"><label><input id="checkbox-N" type="checkbox" checked="">North</label></div>
+                <div id="TextBoxDiv-W" style="display: inline;"><label><input id="checkbox-W" type="checkbox" checked="">West</label></div>
+                <div id="TextBoxDiv-E" style="display: inline;"><label><input id="checkbox-E" type="checkbox" checked="">East</label></div>
+                <div id="TextBoxDiv-M" style="display: inline;"><label><input id="checkbox-M" type="checkbox" checked="">Middle</label></div>
+                
+                <div id="TextBoxDiv-D" style="display: inline;"><label><input id="checkbox-D" type="checkbox" checked="">District</label></div>
+            </div>
+       </div>
     </span>
     <br><br>
     <div id="pub-heatmap-1"></div>
@@ -86,6 +96,7 @@
 
 <script type="text/javascript">
 
+/*
 var parser = function(data) {
 	var stats = {};
 	for (var d in data) {
@@ -93,24 +104,224 @@ var parser = function(data) {
 	}
 	return stats;
 };
+*/
+/*
+var newTextBoxDiv = $(document.createElement('div')).attr("id", 'TextBoxDiv');
+    newTextBoxDiv.after().html('<label><input type="checkbox" checked="">East</input></label>');
+    newTextBoxDiv.appendTo("#checkBoxSection");
+ */
+
+stateList =
+{ AZ: 'Arizona',
+AL: 'Alabama',
+AK: 'Alaska',
+AR: 'Arkansas',
+CA: 'California',
+CO: 'Colorado',
+CT: 'Connecticut',
+DC: 'District of Columbia',
+DE: 'Delaware',
+FL: 'Florida',
+GA: 'Georgia',
+HI: 'Hawaii',
+ID: 'Idaho',
+IL: 'Illinois',
+IN: 'Indiana',
+IA: 'Iowa',
+KS: 'Kansas',
+KY: 'Kentucky',
+LA: 'Louisiana',
+ME: 'Maine',
+MD: 'Maryland',
+MA: 'Massachusetts',
+MI: 'Michigan',
+MN: 'Minnesota',
+MS: 'Mississippi',
+MO: 'Missouri',
+MT: 'Montana',
+NE: 'Nebraska',
+NV: 'Nevada',
+NH: 'New Hampshire',
+NJ: 'New Jersey',
+NM: 'New Mexico',
+NY: 'New York',
+NC: 'North Carolina',
+ND: 'North Dakota',
+OH: 'Ohio',
+OK: 'Oklahoma',
+OR: 'Oregon',
+PA: 'Pennsylvania',
+RI: 'Rhode Island',
+SC: 'South Carolina',
+SD: 'South Dakota',
+TN: 'Tennessee',
+TX: 'Texas',
+UT: 'Utah',
+VT: 'Vermont',
+VA: 'Virginia',
+WA: 'Washington',
+WV: 'West Virginia',
+WI: 'Wisconsin',
+WY: 'Wyoming' }
 
 
-$(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION 
-    $("#states_field").change(function(){ //EVENT FOR THE DROP DOWN VALUE CHANGE 
-        console.log("The text has been changed."+ $("#states_field  option:selected").val());
+var dataForInput={};
+var dataJson;
+var pub1 = new CalHeatMap();
+var pub2 = new CalHeatMap();
+var pub3 = new CalHeatMap();
+var pub4 = new CalHeatMap();
+
+function createCheckbox(id){
+    
+    id=id.toUpperCase();
+    var nameIs="";
+    if($("#TextBoxDiv-"+id).length != 0) {
+        return;
+    }
+    if(id=='S'){
+        name="South";
+    }else if(id=='N'){
+        name="North";
+    }else if(id=='W'){
+        name="West";
+    }else if(id=='E'){
+        name="East";
+    }else if(id=='M'){
+        name="Middle";
+    }else if(id=='D'){
+        name="District";
+    }
+    var newTextBoxDiv = $(document.createElement('div')).attr("id", 'TextBoxDiv-'+id);
+    newTextBoxDiv.after().html('<label><input id="checkbox-'+id+'" type="checkbox" checked="">'+name+'</input></label>');
+    newTextBoxDiv.appendTo("#checkBoxSection");
+}
+
+
+$('input:checkbox').change(
+    function(){
+        $("#resultClick").html("");
         var selected_state=$("#states_field  option:selected").val();
+        dataForInput=[];
+        //console.log("The text has been changed."+ selected_state);
+        for (var i = 0; i < dataJson.length; i++) {
+            if(dataJson[i].date != undefined ){
+                var stateL=dataJson[i].abbrev;
+                //***making a string for the calender, that is how many event in specific date (array depends on the second of the event)
+                var stateCharaters = stateL.substring(0, 2).toUpperCase();
+                var dateIs = new Date(dataJson[i].date);
+                var secondsIs = dateIs.getTime() / 1000;
+
+                var lastChars = stateL.substring(2, stateL.length);
+                lastChars=lastChars.toUpperCase();
+
+                if(selected_state=='all' || selected_state==stateCharaters){
+
+                    for(b=0;b<lastChars.length;b++){
+                        $('#TextBoxDiv-'+lastChars.charAt(b)).show();
+                    }
+
+                    if(
+                        ($('#checkbox-S').is(":checked") && lastChars.indexOf('S') > -1) || 
+                        ($('#checkbox-D').is(":checked") && lastChars.indexOf('D') > -1) || 
+                        ($('#checkbox-M').is(":checked") && lastChars.indexOf('M') > -1) || 
+                        ($('#checkbox-E').is(":checked") && lastChars.indexOf('E') > -1) || 
+                        ($('#checkbox-W').is(":checked") && lastChars.indexOf('W') > -1) || 
+                        ($('#checkbox-N').is(":checked") && lastChars.indexOf('N') > -1) )
+                        {
+                        if(dataForInput[secondsIs]==undefined){
+                            dataForInput[secondsIs] =  1;
+                        }else{
+                            dataForInput[secondsIs] =  dataForInput[secondsIs] + 1;
+                        }
+                    }
+                }
+            }
+        }
+        pub1.update(dataForInput);
+        pub2.update(dataForInput);
+        pub3.update(dataForInput);
+        pub4.update(dataForInput);
+
+     });
+
+
+
+function hideAllCheckbox(){
+
+        $('#checkbox-S').prop('checked', true);
+        $('#checkbox-N').prop('checked', true);
+        $('#checkbox-W').prop('checked', true);
+        $('#checkbox-E').prop('checked', true);
+        $('#checkbox-M').prop('checked', true);
+        $('#checkbox-D').prop('checked', true);
+
+        $('#TextBoxDiv-S').hide();
+        $('#TextBoxDiv-N').hide();
+        $('#TextBoxDiv-W').hide();
+        $('#TextBoxDiv-E').hide();
+        $('#TextBoxDiv-M').hide();
+        $('#TextBoxDiv-D').hide();
+
+}
+
+$(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
+
+   //**********************************************************************************
+    $("#states_field").change(function(){ //EVENT FOR THE DROP DOWN VALUE CHANGE
+        console.log('dsd');
+        hideAllCheckbox();
+        $("#resultClick").html("");
+        var selected_state=$("#states_field  option:selected").val();
+        dataForInput=[];
+        //console.log("The text has been changed."+ selected_state);
+        for (var i = 0; i < dataJson.length; i++) {
+            if(dataJson[i].date != undefined ){
+                var stateL=dataJson[i].abbrev;
+                //***making a string for the calender, that is how many event in specific date (array depends on the second of the event)
+                var stateCharaters = stateL.substring(0, 2).toUpperCase();
+                var dateIs = new Date(dataJson[i].date);
+                var secondsIs = dateIs.getTime() / 1000;
+
+                var lastChars = stateL.substring(2, stateL.length);
+                lastChars=lastChars.toUpperCase();
+
+                if(selected_state=='all' || selected_state==stateCharaters){
+
+                    for(b=0;b<lastChars.length;b++){
+                        $('#TextBoxDiv-'+lastChars.charAt(b)).show();
+                    }
+
+                    if(
+                        ($('#checkbox-S').is(":checked") && lastChars.indexOf('S') > -1) || 
+                        ($('#checkbox-D').is(":checked") && lastChars.indexOf('D') > -1) || 
+                        ($('#checkbox-M').is(":checked") && lastChars.indexOf('M') > -1) || 
+                        ($('#checkbox-E').is(":checked") && lastChars.indexOf('E') > -1) || 
+                        ($('#checkbox-W').is(":checked") && lastChars.indexOf('W') > -1) || 
+                        ($('#checkbox-N').is(":checked") && lastChars.indexOf('N') > -1) )
+                        {
+                        if(dataForInput[secondsIs]==undefined){
+                            dataForInput[secondsIs] =  1;
+                        }else{
+                            dataForInput[secondsIs] =  dataForInput[secondsIs] + 1;
+                        }
+                    }
+                }
+            }
+        }
+        pub1.update(dataForInput);
+        pub2.update(dataForInput);
+        pub3.update(dataForInput);
+        pub4.update(dataForInput);
     });
+//******************************************************************************************
 
         d3.json("naturalization-ceremonies.json", function(data) { // START LOADING THE JSON
-            var dataForInput={};
+            dataJson=data;
             for (var i = 0; i < data.length; i++) {
                 if(data[i].date != undefined ){
                    var stateL=data[i].abbrev;
-                    if(stateL != undefined){
-                        //var stateIs=stateL.trim().split(",")[1].trim().split(" ")[0];
-                        var stateIs=stateL.substr(0, 2);
-                       //console.log(stateL + "*****" + stateIs );
-                    }
+                    //***making a string for the calender, that is how many event in specific date (array depends on the second of the event)
                     var dateIs = new Date(data[i].date);
                     var secondsIs = dateIs.getTime() / 1000;
                     if(dataForInput[secondsIs]==undefined){
@@ -118,11 +329,24 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
                     }else{
                         dataForInput[secondsIs] =  dataForInput[secondsIs] + 1;
                    }
+                    //**** adding unique state in the drop down
+                    var stateCharaters = stateL.substring(0, 2).toUpperCase();
+                    var optionExists = ($('#states_field option[value=' + stateCharaters + ']').length > 0);
+                    if(!optionExists)
+                    {
+                        $('#states_field').append("<option value="+stateCharaters+">"+stateList[stateCharaters]+"</option>");
+                    }
+
+                    var lastChars = stateL.substring(2, stateL.length);
+                    for(b=0;b<lastChars.length;b++){
+                        createCheckbox(lastChars.charAt(b));
+                    }
+
                }
             }
 
-            var pub1 = new CalHeatMap();
-            pub1.init({ //START INITIALIZE THE HEATMAP  1 
+
+            pub1.init({ //START INITIALIZE THE HEATMAP  1
                 itemSelector: "#pub-heatmap-1",
                 domain :"month",
                 subDomain:"x_day",
@@ -133,7 +357,6 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
                 domainGutter:5,
                 range: 3,
                 displayLegend: false,
-
                 nextSelector: "#domainDynamicDimension-next",
                 previousSelector: "#domainDynamicDimension-previous",
                 weekStartOnMonday: false,
@@ -146,41 +369,13 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
                 legend: [1, 2, 3, 4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
 
                 onClick: function(date, nb) {
-                    $("#resultClick").html("Details <br> Date: <b>" +
-                            date + "</b><br/>Total Events: <b>" +
-                        (nb === null ? "0" : nb) + "</b>"
-                    );
-                    var d1=date.getDate();
-                    var m1=date.getMonth();
-                    var y1=date.getFullYear();
-
-                    var eventNum=1;
-                    for (var i = 0; i < data.length; i++) {
-
-                       if(data[i].date != undefined ){
-                            var dateTo=new Date(data[i].date);
-                            var d2=dateTo.getDate();
-                            var m2=dateTo.getMonth();
-                            var y2=dateTo.getFullYear();
-                            if (d1 == d2 && m1==m2 && y1==y2) {
-                                if(data[i].url == undefined){
-                                    $("#resultClick").append("<br> <span > no URL found to register for event " + eventNum  +"</span> ");
-                                }else{
-                                    $("#resultClick").append("<br> <a href='" + data[i].url +"'> Click to register event "+ eventNum  +"</a> ");
-                                }
-                                eventNum = eventNum+1;
-                            }
-                        }
-                    }
+                    clickCalender(date,nb);
                 }
 
             }); //END OF HEAT MAP CREATION INITIATLIZE
 
 
-
-
-            var pub2 = new CalHeatMap();
-            pub2.init({ //START INITIALIZE THE HEATMAP  1 
+            pub2.init({ //START INITIALIZE THE HEATMAP  1
                 itemSelector: "#pub-heatmap-2",
                 domain :"month",
                 subDomain:"x_day",
@@ -191,7 +386,6 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
                 domainGutter:5,
                 range: 3,
                 displayLegend: false,
-
                 nextSelector: "#domainDynamicDimension-next",
                 previousSelector: "#domainDynamicDimension-previous",
                 weekStartOnMonday: false,
@@ -204,43 +398,12 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
                 legend: [1, 2, 3, 4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
 
                 onClick: function(date, nb) {
-                    $("#resultClick").html("Details <br> Date: <b>" +
-                            date + "</b><br/>Total Events: <b>" +
-                        (nb === null ? "0" : nb) + "</b>"
-                    );
-                    var d1=date.getDate();
-                    var m1=date.getMonth();
-                    var y1=date.getFullYear();
-
-                    var eventNum=1;
-                    for (var i = 0; i < data.length; i++) {
-
-                       if(data[i].date != undefined ){
-                            var dateTo=new Date(data[i].date);
-                            var d2=dateTo.getDate();
-                            var m2=dateTo.getMonth();
-                            var y2=dateTo.getFullYear();
-                            if (d1 == d2 && m1==m2 && y1==y2) {
-                                if(data[i].url == undefined){
-                                    $("#resultClick").append("<br> <span > no URL found to register for event " + eventNum  +"</span> ");
-                                }else{
-                                    $("#resultClick").append("<br> <a href='" + data[i].url +"'> Click to register event "+ eventNum  +"</a> ");
-                                }
-                                eventNum = eventNum+1;
-                            }
-                        }
-                    }
+                    clickCalender(date,nb);
                 }
 
             }); //END OF HEAT MAP CREATION INITIATLIZE
 
-
-
-
-
-
-            var pub3 = new CalHeatMap();
-            pub3.init({ //START INITIALIZE THE HEATMAP  1 
+            pub3.init({ //START INITIALIZE THE HEATMAP  1
                 itemSelector: "#pub-heatmap-3",
                 domain :"month",
                 subDomain:"x_day",
@@ -251,7 +414,6 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
                 domainGutter:5,
                 range: 3,
                 displayLegend: false,
-
                 nextSelector: "#domainDynamicDimension-next",
                 previousSelector: "#domainDynamicDimension-previous",
                 weekStartOnMonday: false,
@@ -264,44 +426,13 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
                 legend: [1, 2, 3, 4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
 
                 onClick: function(date, nb) {
-                    $("#resultClick").html("Details <br> Date: <b>" +
-                            date + "</b><br/>Total Events: <b>" +
-                        (nb === null ? "0" : nb) + "</b>"
-                    );
-                    var d1=date.getDate();
-                    var m1=date.getMonth();
-                    var y1=date.getFullYear();
-
-                    var eventNum=1;
-                    for (var i = 0; i < data.length; i++) {
-
-                       if(data[i].date != undefined ){
-                            var dateTo=new Date(data[i].date);
-                            var d2=dateTo.getDate();
-                            var m2=dateTo.getMonth();
-                            var y2=dateTo.getFullYear();
-                            if (d1 == d2 && m1==m2 && y1==y2) {
-                                if(data[i].url == undefined){
-                                    $("#resultClick").append("<br> <span > no URL found to register for event " + eventNum  +"</span> ");
-                                }else{
-                                    $("#resultClick").append("<br> <a href='" + data[i].url +"'> Click to register event "+ eventNum  +"</a> ");
-                                }
-                                eventNum = eventNum+1;
-                            }
-                        }
-                    }
+                    clickCalender(date,nb);
                 }
 
             }); //END OF HEAT MAP CREATION INITIATLIZE
 
 
-
-
-
-
-
-            var pub4 = new CalHeatMap();
-            pub4.init({ //START INITIALIZE THE HEATMAP  1 
+            pub4.init({ //START INITIALIZE THE HEATMAP  1
                 itemSelector: "#pub-heatmap-4",
                 domain :"month",
                 subDomain:"x_day",
@@ -311,8 +442,7 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
                 subDomainTextFormat: "%d",
                 domainGutter:5,
                 range: 3,
-                displayLegend: false,
-
+                displayLegend: true,
                 nextSelector: "#domainDynamicDimension-next",
                 previousSelector: "#domainDynamicDimension-previous",
                 weekStartOnMonday: false,
@@ -325,7 +455,29 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
                 legend: [1, 2, 3, 4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
 
                 onClick: function(date, nb) {
-                    $("#resultClick").html("Details <br> Date: <b>" +
+                    clickCalender(date,nb);
+                }
+
+            }); //END OF HEAT MAP CREATION INITIATLIZE
+ 
+
+
+
+        });// END OF JSON FILE LOAD
+
+
+
+});//END OF FUNCTION LOAD DOCUMNET
+
+
+
+
+
+
+
+function clickCalender(date,nb){
+
+    $("#resultClick").html("Details <br> Date: <b>" +
                             date + "</b><br/>Total Events: <b>" +
                         (nb === null ? "0" : nb) + "</b>"
                     );
@@ -342,30 +494,38 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
                             var m2=dateTo.getMonth();
                             var y2=dateTo.getFullYear();
                             if (d1 == d2 && m1==m2 && y1==y2) {
-                                if(data[i].url == undefined){
-                                    $("#resultClick").append("<br> <span > no URL found to register for event " + eventNum  +"</span> ");
-                                }else{
-                                    $("#resultClick").append("<br> <a href='" + data[i].url +"'> Click to register event "+ eventNum  +"</a> ");
+
+                                var stateL=data[i].abbrev;
+                                var stateCharaters = stateL.substring(0, 2).toUpperCase();
+                                var selected_state=$("#states_field  option:selected").val();
+                                
+                                var lastChars = stateL.substring(2, stateL.length);
+                                lastChars=lastChars.toUpperCase();
+
+                                if(selected_state=='all' || selected_state==stateCharaters){
+
+                                    if(
+                                        ($('#checkbox-S').is(":checked") && lastChars.indexOf('S') > -1) || 
+                                        ($('#checkbox-D').is(":checked") && lastChars.indexOf('D') > -1) || 
+                                        ($('#checkbox-M').is(":checked") && lastChars.indexOf('M') > -1) || 
+                                        ($('#checkbox-E').is(":checked") && lastChars.indexOf('E') > -1) || 
+                                        ($('#checkbox-W').is(":checked") && lastChars.indexOf('W') > -1) || 
+                                        ($('#checkbox-N').is(":checked") && lastChars.indexOf('N') > -1) )
+                                        {
+                                            if(data[i].url == undefined){
+                                                $("#resultClick").append("<br> <span > no URL found to register for event " + eventNum  +"</span> ");
+                                            }else{
+                                                $("#resultClick").append("<br> <a href='" + data[i].url +"'> Click to register event "+ eventNum  +"</a> ");
+                                            }
+                                            eventNum = eventNum+1;
+                                        }
                                 }
-                                eventNum = eventNum+1;
+
                             }
                         }
                     }
-                }
 
-            }); //END OF HEAT MAP CREATION INITIATLIZE
-
-
-
-
-
-
-
-        });// END OF JSON FILE LOAD 
-
-
-
-});//END OF FUNCTION LOAD DOCUMNET
+}
 </script>
 
 

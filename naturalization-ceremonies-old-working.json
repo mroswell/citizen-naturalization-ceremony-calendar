@@ -7,8 +7,7 @@
         "street": "205 SE Fifth Avenue",
         "citystatezip": "Amarillo, TX 79101",
         "phone": "806-468-3800",
-        "url": "http://www.txnd.uscourts.gov/naturalization-ceremony-schedule",
-        "abbrev": "txnd"
+        "url": "http://www.txnd.uscourts.gov/naturalization-ceremony-schedule"
     },
     {
         "date": "2020-01-15T05:00:00.000Z",
@@ -175,7 +174,7 @@
     {
         "location": "U. S. Citizenship and Immigration Services facility",
         "street": "6500 Campus Cir Dr E",
-        "citystatezip": "Irving, TX, 75063",
+        "citystatezip": "Irving, TX 75063",
         "url": "http://www.txed.uscourts.gov/?q=naturalization",
         "status2020": "incomplete",
         "abbrev": "txed"
@@ -206,7 +205,6 @@
         "location": "Central Library",
         "room": "Special Event Center (1st floor)",
         "street": "710 W. César Chávez St.",
-        "citystatezip": "Austin, TX 78701",
         "phone": "512-974-7400",
         "url": "http://library.austintexas.gov/search-site?search=naturalization%20ceremony",
         "abbrev": "txsd"
@@ -217,7 +215,6 @@
         "location": "Central Library",
         "room": "Special Event Center (1st floor)",
         "street": "710 W. César Chávez St.",
-        "citystatezip": "Austin, TX 78701",
         "phone": "512-974-7400",
         "url": "http://library.austintexas.gov/search-site?search=naturalization%20ceremony",
         "abbrev": "txsd"
@@ -228,7 +225,6 @@
         "location": "Central Library",
         "room": "Special Event Center (1st floor)",
         "street": "710 W. César Chávez St.",
-        "citystatezip": "Austin, TX 78701",
         "phone": "512-974-7400",
         "url": "http://library.austintexas.gov/search-site?search=naturalization%20ceremony",
         "abbrev": "txsd"
@@ -239,7 +235,6 @@
         "location": "Central Library",
         "room": "Special Event Center (1st floor)",
         "street": "710 W. César Chávez St.",
-        "citystatezip": "Austin, TX 78701",
         "phone": "512-974-7400",
         "url": "http://library.austintexas.gov/search-site?search=naturalization%20ceremony",
         "abbrev": "txsd"
@@ -250,7 +245,6 @@
         "location": "Central Library",
         "room": "Special Event Center (1st floor)",
         "street": "710 W. César Chávez St.",
-        "citystatezip": "Austin, TX 78701",
         "phone": "512-974-7400",
         "url": "http://library.austintexas.gov/search-site?search=naturalization%20ceremony",
         "status2020": "no-info-on-website",
@@ -262,7 +256,6 @@
         "location": "Central Library",
         "room": "Special Event Center (1st floor)",
         "street": "710 W. César Chávez St.",
-        "citystatezip": "Austin, TX 78701",
         "phone": "512-974-7400",
         "url": "http://library.austintexas.gov/search-site?search=naturalization%20ceremony",
         "abbrev": "txsd"
@@ -273,7 +266,6 @@
         "location": "Central Library",
         "room": "Special Event Center (1st floor)",
         "street": "710 W. César Chávez St.",
-        "citystatezip": "Austin, TX 78701",
         "phone": "512-974-7400",
         "url": "http://library.austintexas.gov/search-site?search=naturalization%20ceremony",
         "abbrev": "txsd"
@@ -284,7 +276,6 @@
         "location": "Central Library",
         "room": "Special Event Center (1st floor)",
         "street": "710 W. César Chávez St.",
-        "citystatezip": "Austin, TX 78701",
         "phone": "512-974-7400",
         "url": "http://library.austintexas.gov/search-site?search=naturalization%20ceremony",
         "abbrev": "txsd"
@@ -690,7 +681,6 @@
         "citystatezip": "Lancaster, PA 17602",
         "genericLocation": "Lancaster County",
         "url": "https://co.lancaster.pa.us/246/Naturalization",
-        "status2020": "incomplete",
         "abbrev": "paed"
     },
     {
@@ -701,7 +691,6 @@
         "citystatezip": "Lancaster, PA 17602",
         "genericLocation": "Lancaster County",
         "url": "https://co.lancaster.pa.us/246/Naturalization",
-        "status2020": "incomplete",
         "abbrev": "paed"
     },
     {
@@ -712,7 +701,6 @@
         "citystatezip": "Lancaster, PA 17602",
         "genericLocation": "Lancaster County",
         "url": "https://co.lancaster.pa.us/246/Naturalization",
-        "status2020": "incomplete",
         "abbrev": "paed"
     },
     {
@@ -723,7 +711,6 @@
         "citystatezip": "Lancaster, PA 17602",
         "genericLocation": "Lancaster County",
         "url": "https://co.lancaster.pa.us/246/Naturalization",
-        "status2020": "incomplete",
         "abbrev": "paed"
     },
     {
@@ -734,7 +721,6 @@
         "citystatezip": "Pittsburgh, PA 15219",
         "genericLocation": "Pittsburgh ",
         "url": "https://www.pawd.uscourts.gov/naturalization",
-        "status2020": "complete",
         "abbrev": "pawd"
     },
     {
@@ -745,7 +731,6 @@
         "citystatezip": "Pittsburgh, PA 15219",
         "genericLocation": "Pittsburgh ",
         "url": "https://www.pawd.uscourts.gov/naturalization",
-        "status2020": "complete",
         "abbrev": "pawd"
     },
     {
@@ -756,7 +741,6 @@
         "citystatezip": "Pittsburgh, PA 15219",
         "genericLocation": "Pittsburgh ",
         "url": "https://www.pawd.uscourts.gov/naturalization",
-        "status2020": "complete",
         "abbrev": "pawd"
     },
     {
@@ -767,7 +751,6 @@
         "citystatezip": "Pittsburgh, PA 15219",
         "genericLocation": "Pittsburgh ",
         "url": "https://www.pawd.uscourts.gov/naturalization",
-        "status2020": "complete",
         "abbrev": "pawd"
     },
     {
@@ -778,7 +761,6 @@
         "citystatezip": "Pittsburgh, PA 15219",
         "genericLocation": "Pittsburgh ",
         "url": "https://www.pawd.uscourts.gov/naturalization",
-        "status2020": "complete",
         "abbrev": "pawd"
     },
     {
@@ -789,7 +771,6 @@
         "citystatezip": "Pittsburgh, PA 15219",
         "genericLocation": "Pittsburgh ",
         "url": "https://www.pawd.uscourts.gov/naturalization",
-        "status2020": "complete",
         "abbrev": "pawd"
     },
     {
@@ -800,7 +781,6 @@
         "citystatezip": "Pittsburgh, PA 15219",
         "genericLocation": "Pittsburgh ",
         "url": "https://www.pawd.uscourts.gov/naturalization",
-        "status2020": "complete",
         "abbrev": "pawd"
     },
     {
@@ -811,7 +791,6 @@
         "citystatezip": "Pittsburgh, PA 15219",
         "genericLocation": "Pittsburgh ",
         "url": "https://www.pawd.uscourts.gov/naturalization",
-        "status2020": "complete",
         "abbrev": "pawd"
     },
     {
@@ -822,7 +801,6 @@
         "citystatezip": "Pittsburgh, PA 15219",
         "genericLocation": "Pittsburgh ",
         "url": "https://www.pawd.uscourts.gov/naturalization",
-        "status2020": "complete",
         "abbrev": "pawd"
     },
     {
@@ -833,49 +811,24 @@
         "citystatezip": "Pittsburgh, PA 15219",
         "genericLocation": "Pittsburgh ",
         "url": "https://www.pawd.uscourts.gov/naturalization",
-        "status2020": "complete",
         "abbrev": "pawd"
     },
     {
         "date": "2020-11-20T05:00:00.000Z",
-        "time": "1899-12-30T15:00:00.000Z",
-        "location": "U.S. Post Office and Courthouse",
-        "street": "700 Grant Street",
-        "citystatezip": "Pittsburgh, PA 15219",
-        "url": "https://www.pawd.uscourts.gov/naturalization",
-        "status2020": "complete",
-        "abbrev": "pawd",
-        "notes": "twice per year in the Erie and Johnstown Divisions of the Court."
-    },
-    {
-        "date": "2020-12-18T05:00:00.000Z",
-        "time": "1899-12-30T15:00:00.000Z",
-        "location": "U.S. Post Office and Courthouse",
-        "street": "700 Grant Street",
-        "citystatezip": "Pittsburgh, PA 15219",
-        "url": "https://www.pawd.uscourts.gov/naturalization",
-        "status2020": "complete",
-        "abbrev": "pawd",
-        "notes": "twice per year in the Erie and Johnstown Divisions of the Court."
-    },
-    {
         "location": "Erie Federal Courthouse",
         "street": "617 State Street",
         "citystatezip": "Erie, Pennsylvania 16501",
         "genericLocation": "Erie Division",
         "url": "https://www.pawd.uscourts.gov/naturalization",
-        "status2020": "incomplete",
-        "abbrev": "pawd"
+        "abbrev": "pawd",
+        "notes": "twice per year in the Erie and Johnstown Divisions of the Court."
     },
     {
-        "location": "U.S. Courthouse - 208 Penn Traffic Building",
-        "street": "319 Washington Street",
-        "citystatezip": "Johnstown, PA 15901",
-        "phone": "1-814-533-4504",
+        "date": "2020-12-18T05:00:00.000Z",
         "genericLocation": "Johnstown Division",
         "url": "https://www.pawd.uscourts.gov/naturalization",
-        "status2020": "incomplete",
-        "abbrev": "pawd"
+        "abbrev": "pawd",
+        "notes": "twice per year in the Erie and Johnstown Divisions of the Court."
     },
     {
         "location": "James A. Byrne U.S. Courthouse",
@@ -883,7 +836,6 @@
         "citystatezip": "Philadelphia, PA 19106",
         "phone": "(267) 299-7099",
         "url": "https://www.paed.uscourts.gov/naturalization",
-        "status2020": "incomplete",
         "abbrev": "paed"
     },
     {
@@ -893,17 +845,11 @@
         "phone": "(717) 240-6195",
         "url": "https://www.ccpa.net/424/Naturalization-Court",
         "status2020": "incomplete",
-        "abbrev": "pamd",
         "notes": "Cumberland County conducts Naturalization Court once a year in the Ceremonial Courtroom on the second floor of the Old Courthouse."
     },
     {
-        "location": "Delaware County Courthouse",
-        "street": "201 W. Front Street",
-        "citystatezip": "Media, PA 19063",
-        "phone": "(610) 891-4000",
+        "location": "Courthouse",
         "url": "https://delconew.azurewebsites.net/courts/naturalization.html",
-        "status2020": "incomplete",
-        "abbrev": "paed",
         "notes": "Delaware County Judges have the honor of formally greeting America's newest citizens and administering their oaths of Naturalization during four programs held at the Courthouse each year."
     },
     {
@@ -912,7 +858,7 @@
         "citystatezip": "Detroit, MI 48226",
         "phone": "313-234-5005",
         "genericLocation": "Detroit",
-        "url": "https://www.mied.uscourts.gov/index.cfm?pageFunction=naturalization&FAQGroup=naturalization",
+        "url": "https:\\",
         "status2020": "none",
         "abbrev": "mied",
         "notes": "For information about scheduling or rescheduling a naturalization ceremony, contact the U.S. Citizenship and Immigration Services at (800) 375-5283."
@@ -921,6 +867,12 @@
         "url": "https://www.miwd.uscourts.gov/naturalization",
         "status2020": "none",
         "abbrev": "miwd"
+    },
+    {
+        "url": "http://www.nced.uscourts.gov/public1/immigration.aspx",
+        "status2020": "incomplete",
+        "abbrev": "nced",
+        "notes": "The court hosts several naturalization ceremonies throughout the year. If you are interested in performing patriotic music at a ceremony or a scout interested in leading the Pledge of Allegiance during a ceremony, please contact the Clerk's Office 919.645.1700 and ask for the deputy clerk who organizes naturalization ceremonies or email us."
     },
     {
         "date": "2020-07-04T04:00:00.000Z",
@@ -965,7 +917,6 @@
         "date": "2019-12-13T05:00:00.000Z",
         "location": "Warren Rudman U.S. Courthouse",
         "street": "55 Pleasant Street",
-        "citystatezip": "Concord, NH 03301",
         "url": "http://www.nhd.uscourts.gov/naturalization",
         "abbrev": "nhd",
         "notes": "Dates not listed."
@@ -983,25 +934,11 @@
         "notes": "not the last friday of the month, but listed on LWV site."
     },
     {
-        "date": "2020-02-25T05:00:00.000Z",
-        "location": "Toledo House",
-        "street": "244 Toledo Ave",
-        "citystatezip": "Put-In-Bay, OH 43456",
-        "url": "https://www.ohnd.uscourts.gov/naturalization",
-        "abbrev": "ohnd"
-    },
-    {
         "date": "2020-02-28T05:00:00.000Z",
         "location": "James M. Ashley & Thomas W.L. Ashley U.S. Courthouse",
         "street": "1716 Spielbusch Avenue",
         "citystatezip": "Toledo, OH 43604",
         "genericLocation": "Toledo",
-        "url": "https://www.ohnd.uscourts.gov/naturalization",
-        "abbrev": "ohnd"
-    },
-    {
-        "date": "2020-03-20T04:00:00.000Z",
-        "location": "Wood County Elementary School",
         "url": "https://www.ohnd.uscourts.gov/naturalization",
         "abbrev": "ohnd"
     },
@@ -1755,8 +1692,6 @@
         "date": "2020-07-04T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
         "location": "Iowa Cubs  (Principal Park)",
-        "street": "1 Line Dr",
-        "citystatezip": "Des Moines, IA 50309",
         "url": "https://www.iasd.uscourts.gov/apply-naturalization",
         "status2020": "complete",
         "abbrev": "iasd"
@@ -2139,10 +2074,11 @@
         "date": "2020-03-05T05:00:00.000Z",
         "time": "1899-12-30T15:30:00.000Z",
         "districtmagistratebankruptcyJudges": "Judge Hanan",
-        "location": "MATC - Cooley Auditorium",
-        "room": "2nd Floor, M-Building",
-        "street": "1015 North Sixth Street",
+        "location": "Milwaukee Area Technical College - Downtown Milwaukee Campus",
+        "room": "Cooley Auditorium on the second floor of the M-Building",
+        "street": "1015 N. 6th St.",
         "citystatezip": "Milwaukee, WI 53202",
+        "phone": "Cooley Auditorium on the second floor of the M-Building, 1015 N. 6th St.",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
         "abbrev": "wied"
@@ -2258,1542 +2194,1126 @@
     {
         "date": "2020-01-03T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd",
-        "notes": "no NV naturalization URL; per email"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400",
+        "genericLocation": "https://www.nvd.uscourts.gov/",
+        "status2020": "nvd",
+        "abbrev": "no NV naturalization URL; per email",
+        "notes": "Dates not listed."
     },
     {
         "date": "2020-01-03T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-01-03T05:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-01-03T05:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-01-10T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-01-10T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-01-10T05:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-01-10T05:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-01-24T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-01-24T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-01-24T05:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-01-24T05:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-02-07T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-02-07T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-02-07T05:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-02-07T05:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-02-07T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-02-07T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-02-07T05:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-02-07T05:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-02-21T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-02-21T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-02-21T05:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-02-21T05:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-03-06T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-03-06T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-03-06T05:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-03-06T05:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-03-06T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-03-06T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-03-06T05:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-03-06T05:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-03-20T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-03-20T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-03-20T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-03-20T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-04-03T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-04-03T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-04-03T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-04-03T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-04-10T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-04-10T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-04-10T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-04-10T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-04-24T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-04-24T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-04-24T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-04-24T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-05-01T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-05-01T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-05-01T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-05-01T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-05-08T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-05-08T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-05-08T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-05-08T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-05-22T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-05-22T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-05-22T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-05-22T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-06-05T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-06-05T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-06-05T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-06-05T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-06-12T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-06-12T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-06-12T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-06-12T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-06-26T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-06-26T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-06-26T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-06-26T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-07-03T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-07-03T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-07-03T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-07-03T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-07-10T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-07-10T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-07-10T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-07-10T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-07-24T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-07-24T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-07-24T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-07-24T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-08-07T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-08-07T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-08-07T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-08-07T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-08-07T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-08-07T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-08-07T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-08-07T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-08-21T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-08-21T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-08-21T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-08-21T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-09-04T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-09-04T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-09-04T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-09-04T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-09-11T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-09-11T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-09-11T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-09-11T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-09-25T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-09-25T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-09-25T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-09-25T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-10-02T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-10-02T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-10-02T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-10-02T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-10-09T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-10-09T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-10-09T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-10-09T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-10-23T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-10-23T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-10-23T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-10-23T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-11-06T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-11-06T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-11-06T05:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-11-06T05:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-11-06T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-11-06T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-11-06T05:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-11-06T05:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-11-20T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-11-20T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-11-20T05:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-11-20T05:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-12-04T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-12-04T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-12-04T05:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-12-04T05:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-12-11T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-12-11T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-12-11T05:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     },
     {
         "date": "2020-12-11T05:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
+        "districtmagistratebankruptcyJudges": "Lloyd D. George U.S. Courthouse",
+        "room": "333 Las Vegas Boulevard",
+        "street": "Las Vegas, NV 89101",
+        "citystatezip": "(702) 464-5400"
     }
+   
 ]
