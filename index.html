@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Heat maps</title>
+<title>Citizen Naturalization Ceremonies</title>
 
 <script src="cal-heatmap-master/jquery-3.4.1.min.js"></script>
 <script src="cal-heatmap-master/d3.min.js"></script>
@@ -72,30 +72,50 @@
         </select>
        <div id="checkBoxSection">
             <div id="checkBoxSection">
-                    
+
                 <div id="TextBoxDiv-S" style="display: inline;"><label><input id="checkbox-S" type="checkbox" checked="">South</label></div>
                 <div id="TextBoxDiv-N" style="display: inline;"><label><input id="checkbox-N" type="checkbox" checked="">North</label></div>
                 <div id="TextBoxDiv-W" style="display: inline;"><label><input id="checkbox-W" type="checkbox" checked="">West</label></div>
                 <div id="TextBoxDiv-E" style="display: inline;"><label><input id="checkbox-E" type="checkbox" checked="">East</label></div>
                 <div id="TextBoxDiv-M" style="display: inline;"><label><input id="checkbox-M" type="checkbox" checked="">Middle</label></div>
-                
+
                 <div id="TextBoxDiv-D" style="display: inline;"><label><input id="checkbox-D" type="checkbox" checked="">District</label></div>
             </div>
        </div>
     </span>
     <br><br>
     <div id="pub-heatmap-1"></div>
-    <br><br>
     <div id="pub-heatmap-2"></div>
-    <br><br>
     <div id="pub-heatmap-3"></div>
-    <br><br>
     <div id="pub-heatmap-4"></div>
     <br><br>
     <div id="resultClick"></div>
 
 <script type="text/javascript">
 
+
+
+    /**
+     * Sort values alphabetically in select
+     * source: http://stackoverflow.com/questions/12073270/sorting-options-elements-alphabetically-using-jquery
+     */
+    $.fn.extend({
+        sortSelect() {
+            let options = this.find("option"),
+                arr = options.map(function(_, o) { return { t: $(o).text(), v: o.value }; }).get();
+
+            arr.sort((o1, o2) => { // sort select
+                let t1 = o1.t.toLowerCase(),
+                    t2 = o2.t.toLowerCase();
+                return t1 > t2 ? 1 : t1 < t2 ? -1 : 0;
+            });
+
+            options.each((i, o) => {
+                o.value = arr[i].v;
+                $(o).text(arr[i].t);
+            });
+        }
+    });
 /*
 var parser = function(data) {
 	var stats = {};
@@ -173,7 +193,7 @@ var pub3 = new CalHeatMap();
 var pub4 = new CalHeatMap();
 
 function createCheckbox(id){
-    
+
     id=id.toUpperCase();
     var nameIs="";
     if($("#TextBoxDiv-"+id).length != 0) {
@@ -207,26 +227,26 @@ $('input:checkbox').change(
         for (var i = 0; i < dataJson.length; i++) {
             if(dataJson[i].date != undefined ){
                 var stateL=dataJson[i].abbrev;
-                //***making a string for the calender, that is how many event in specific date (array depends on the second of the event)
-                var stateCharaters = stateL.substring(0, 2).toUpperCase();
+                //*** making a string for the calender, that is how many events in specific date (array depends on the second of the event)
+                var stateCharacters = stateL.substring(0, 2).toUpperCase();
                 var dateIs = new Date(dataJson[i].date);
                 var secondsIs = dateIs.getTime() / 1000;
 
                 var lastChars = stateL.substring(2, stateL.length);
                 lastChars=lastChars.toUpperCase();
 
-                if(selected_state=='all' || selected_state==stateCharaters){
+                if(selected_state=='all' || selected_state==stateCharacters){
 
                     for(b=0;b<lastChars.length;b++){
                         $('#TextBoxDiv-'+lastChars.charAt(b)).show();
                     }
 
                     if(
-                        ($('#checkbox-S').is(":checked") && lastChars.indexOf('S') > -1) || 
-                        ($('#checkbox-D').is(":checked") && lastChars.indexOf('D') > -1) || 
-                        ($('#checkbox-M').is(":checked") && lastChars.indexOf('M') > -1) || 
-                        ($('#checkbox-E').is(":checked") && lastChars.indexOf('E') > -1) || 
-                        ($('#checkbox-W').is(":checked") && lastChars.indexOf('W') > -1) || 
+                        ($('#checkbox-S').is(":checked") && lastChars.indexOf('S') > -1) ||
+                        ($('#checkbox-D').is(":checked") && lastChars.indexOf('D') > -1) ||
+                        ($('#checkbox-M').is(":checked") && lastChars.indexOf('M') > -1) ||
+                        ($('#checkbox-E').is(":checked") && lastChars.indexOf('E') > -1) ||
+                        ($('#checkbox-W').is(":checked") && lastChars.indexOf('W') > -1) ||
                         ($('#checkbox-N').is(":checked") && lastChars.indexOf('N') > -1) )
                         {
                         if(dataForInput[secondsIs]==undefined){
@@ -278,26 +298,26 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
         for (var i = 0; i < dataJson.length; i++) {
             if(dataJson[i].date != undefined ){
                 var stateL=dataJson[i].abbrev;
-                //***making a string for the calender, that is how many event in specific date (array depends on the second of the event)
-                var stateCharaters = stateL.substring(0, 2).toUpperCase();
+                //*** making a string for the calender, that is how many events in specific date (array depends on the second of the event)
+                var stateCharacters = stateL.substring(0, 2).toUpperCase();
                 var dateIs = new Date(dataJson[i].date);
                 var secondsIs = dateIs.getTime() / 1000;
 
                 var lastChars = stateL.substring(2, stateL.length);
                 lastChars=lastChars.toUpperCase();
 
-                if(selected_state=='all' || selected_state==stateCharaters){
+                if(selected_state=='all' || selected_state==stateCharacters){
 
                     for(b=0;b<lastChars.length;b++){
                         $('#TextBoxDiv-'+lastChars.charAt(b)).show();
                     }
 
                     if(
-                        ($('#checkbox-S').is(":checked") && lastChars.indexOf('S') > -1) || 
-                        ($('#checkbox-D').is(":checked") && lastChars.indexOf('D') > -1) || 
-                        ($('#checkbox-M').is(":checked") && lastChars.indexOf('M') > -1) || 
-                        ($('#checkbox-E').is(":checked") && lastChars.indexOf('E') > -1) || 
-                        ($('#checkbox-W').is(":checked") && lastChars.indexOf('W') > -1) || 
+                        ($('#checkbox-S').is(":checked") && lastChars.indexOf('S') > -1) ||
+                        ($('#checkbox-D').is(":checked") && lastChars.indexOf('D') > -1) ||
+                        ($('#checkbox-M').is(":checked") && lastChars.indexOf('M') > -1) ||
+                        ($('#checkbox-E').is(":checked") && lastChars.indexOf('E') > -1) ||
+                        ($('#checkbox-W').is(":checked") && lastChars.indexOf('W') > -1) ||
                         ($('#checkbox-N').is(":checked") && lastChars.indexOf('N') > -1) )
                         {
                         if(dataForInput[secondsIs]==undefined){
@@ -316,12 +336,15 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
     });
 //******************************************************************************************
 
+
+
+
         d3.json("naturalization-ceremonies.json", function(data) { // START LOADING THE JSON
             dataJson=data;
             for (var i = 0; i < data.length; i++) {
                 if(data[i].date != undefined ){
                    var stateL=data[i].abbrev;
-                    //***making a string for the calender, that is how many event in specific date (array depends on the second of the event)
+                    //*** making a string for the calender, that is how many events in specific date (array depends on the second of the event)
                     var dateIs = new Date(data[i].date);
                     var secondsIs = dateIs.getTime() / 1000;
                     if(dataForInput[secondsIs]==undefined){
@@ -330,13 +353,13 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
                         dataForInput[secondsIs] =  dataForInput[secondsIs] + 1;
                    }
                     //**** adding unique state in the drop down
-                    var stateCharaters = stateL.substring(0, 2).toUpperCase();
-                    var optionExists = ($('#states_field option[value=' + stateCharaters + ']').length > 0);
+                    var stateCharacters = stateL.substring(0, 2).toUpperCase();
+                    var optionExists = ($('#states_field option[value=' + stateCharacters + ']').length > 0);
                     if(!optionExists)
                     {
-                        $('#states_field').append("<option value="+stateCharaters+">"+stateList[stateCharaters]+"</option>");
+                        $('#states_field').append("<option value="+stateCharacters+">"+stateList[stateCharacters]+"</option>");
                     }
-
+                    $("#states_field").sortSelect();
                     var lastChars = stateL.substring(2, stateL.length);
                     for(b=0;b<lastChars.length;b++){
                         createCheckbox(lastChars.charAt(b));
@@ -349,12 +372,12 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
             pub1.init({ //START INITIALIZE THE HEATMAP  1
                 itemSelector: "#pub-heatmap-1",
                 domain :"month",
+                domainMargin: [0, 15 ,0 ,0],
                 subDomain:"x_day",
+                subDomainTextFormat: "%d",
                 cellSize: 20,
                 data:dataForInput,
                 //afterLoadData: parser,
-                subDomainTextFormat: "%d",
-                domainGutter:5,
                 range: 3,
                 displayLegend: false,
                 nextSelector: "#domainDynamicDimension-next",
@@ -364,28 +387,29 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
                 start: new Date(2020, 0, 1),
                 minDate: new Date(2020, 0, 1),
                 maxDate: new Date(2020, 11,31),
-
                 legendColors: ["#ecf5e2", "#232181"],
-                legend: [1, 2, 3, 4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+                legend: [1,2,3,4,5,6,7,8,9,10,11,12],
+                label: {
+                    position: "top"
+                },
 
                 onClick: function(date, nb) {
                     clickCalender(date,nb);
                 }
 
-            }); //END OF HEAT MAP CREATION INITIATLIZE
+            }); //END OF HEATMAP CREATION INITIALIZE
 
 
             pub2.init({ //START INITIALIZE THE HEATMAP  1
                 itemSelector: "#pub-heatmap-2",
                 domain :"month",
+                domainMargin: [8, 15 ,0 ,0],
                 subDomain:"x_day",
+                subDomainTextFormat: "%d",
                 cellSize: 20,
                 data:dataForInput,
                 //afterLoadData: parser,
-                subDomainTextFormat: "%d",
-                domainGutter:5,
                 range: 3,
-                displayLegend: false,
                 nextSelector: "#domainDynamicDimension-next",
                 previousSelector: "#domainDynamicDimension-previous",
                 weekStartOnMonday: false,
@@ -393,27 +417,29 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
                 start: new Date(2020, 3, 1),
                 minDate: new Date(2020, 0, 1),
                 maxDate: new Date(2020, 11,31),
-
                 legendColors: ["#ecf5e2", "#232181"],
-                legend: [1, 2, 3, 4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+                legend: [1, 2, 3, 4,5,6,7,8,9,10,11,12],
+                displayLegend: false,
+                label: {
+                    position: "top"
+                },
 
                 onClick: function(date, nb) {
                     clickCalender(date,nb);
                 }
 
-            }); //END OF HEAT MAP CREATION INITIATLIZE
+            }); //END OF HEATMAP CREATION INITIALIZE
 
             pub3.init({ //START INITIALIZE THE HEATMAP  1
                 itemSelector: "#pub-heatmap-3",
                 domain :"month",
+                domainMargin: [0, 15 ,0 ,0],
                 subDomain:"x_day",
+                subDomainTextFormat: "%d",
                 cellSize: 20,
                 data:dataForInput,
                 //afterLoadData: parser,
-                subDomainTextFormat: "%d",
-                domainGutter:5,
                 range: 3,
-                displayLegend: false,
                 nextSelector: "#domainDynamicDimension-next",
                 previousSelector: "#domainDynamicDimension-previous",
                 weekStartOnMonday: false,
@@ -421,28 +447,30 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
                 start: new Date(2020, 6, 1),
                 minDate: new Date(2020, 0, 1),
                 maxDate: new Date(2020, 11,31),
-
                 legendColors: ["#ecf5e2", "#232181"],
-                legend: [1, 2, 3, 4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+                legend: [1,2,3,4,5,6,7,8,9,10,11,12],
+                displayLegend: false,
+                label: {
+                    position: "top"
+                },
 
                 onClick: function(date, nb) {
                     clickCalender(date,nb);
                 }
 
-            }); //END OF HEAT MAP CREATION INITIATLIZE
+            }); //END OF HEATMAP CREATION INITIALIZE
 
 
             pub4.init({ //START INITIALIZE THE HEATMAP  1
                 itemSelector: "#pub-heatmap-4",
                 domain :"month",
+                domainMargin: [0,15 ,0 ,0],
                 subDomain:"x_day",
+                subDomainTextFormat: "%d",
                 cellSize: 20,
                 data:dataForInput,
                 //afterLoadData: parser,
-                subDomainTextFormat: "%d",
-                domainGutter:5,
                 range: 3,
-                displayLegend: true,
                 nextSelector: "#domainDynamicDimension-next",
                 previousSelector: "#domainDynamicDimension-previous",
                 weekStartOnMonday: false,
@@ -450,24 +478,24 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
                 start: new Date(2020, 9, 1),
                 minDate: new Date(2020, 0, 1),
                 maxDate: new Date(2020, 11,31),
-
                 legendColors: ["#ecf5e2", "#232181"],
-                legend: [1, 2, 3, 4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+                legend: [1,2,3,4,5,6,7,8,9,10,11,12],
+                displayLegend: false,
+                label: {
+                    position: "top"
+                },
 
                 onClick: function(date, nb) {
                     clickCalender(date,nb);
                 }
 
-            }); //END OF HEAT MAP CREATION INITIATLIZE
- 
-
+            }); //END OF HEATMAP CREATION INITIALIZE
 
 
         });// END OF JSON FILE LOAD
 
 
-
-});//END OF FUNCTION LOAD DOCUMNET
+});//END OF FUNCTION LOAD DOCUMENT
 
 
 
@@ -496,20 +524,20 @@ function clickCalender(date,nb){
                             if (d1 == d2 && m1==m2 && y1==y2) {
 
                                 var stateL=data[i].abbrev;
-                                var stateCharaters = stateL.substring(0, 2).toUpperCase();
+                                var stateCharacters = stateL.substring(0, 2).toUpperCase();
                                 var selected_state=$("#states_field  option:selected").val();
-                                
+
                                 var lastChars = stateL.substring(2, stateL.length);
                                 lastChars=lastChars.toUpperCase();
 
-                                if(selected_state=='all' || selected_state==stateCharaters){
+                                if(selected_state=='all' || selected_state==stateCharacters){
 
                                     if(
-                                        ($('#checkbox-S').is(":checked") && lastChars.indexOf('S') > -1) || 
-                                        ($('#checkbox-D').is(":checked") && lastChars.indexOf('D') > -1) || 
-                                        ($('#checkbox-M').is(":checked") && lastChars.indexOf('M') > -1) || 
-                                        ($('#checkbox-E').is(":checked") && lastChars.indexOf('E') > -1) || 
-                                        ($('#checkbox-W').is(":checked") && lastChars.indexOf('W') > -1) || 
+                                        ($('#checkbox-S').is(":checked") && lastChars.indexOf('S') > -1) ||
+                                        ($('#checkbox-D').is(":checked") && lastChars.indexOf('D') > -1) ||
+                                        ($('#checkbox-M').is(":checked") && lastChars.indexOf('M') > -1) ||
+                                        ($('#checkbox-E').is(":checked") && lastChars.indexOf('E') > -1) ||
+                                        ($('#checkbox-W').is(":checked") && lastChars.indexOf('W') > -1) ||
                                         ($('#checkbox-N').is(":checked") && lastChars.indexOf('N') > -1) )
                                         {
                                             if(data[i].url == undefined){
