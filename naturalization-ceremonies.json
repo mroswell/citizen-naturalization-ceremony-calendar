@@ -2,7 +2,7 @@
     {
         "date": "2020-01-07T05:00:00.000Z",
         "time": "1899-12-30T19:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Lee Ann Reno",
+        "judge": "Judge Lee Ann Reno",
         "location": "JM Jones Federal Building",
         "street": "205 SE Fifth Avenue",
         "citystatezip": "Amarillo, TX 79101",
@@ -13,9 +13,9 @@
     {
         "date": "2020-01-15T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Renee H. Toliver",
+        "judge": "Judge Renee H. Toliver",
         "location": "Earle Cabell Federal Building",
-        "street": "1100 Commerce St.",
+        "street": "1100 Commerce Street",
         "citystatezip": "Dallas, TX 75242",
         "phone": "214-753-2200",
         "url": "http://www.txnd.uscourts.gov/naturalization-ceremony-schedule",
@@ -25,9 +25,9 @@
     {
         "date": "2020-02-19T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Ada E. Brown",
+        "judge": "Judge Ada E. Brown",
         "location": "Earle Cabell Federal Building",
-        "street": "1100 Commerce St.",
+        "street": "1101 Commerce Street",
         "citystatezip": "Dallas, TX 75242",
         "phone": "214-753-2200",
         "url": "http://www.txnd.uscourts.gov/naturalization-ceremony-schedule",
@@ -37,9 +37,9 @@
     {
         "date": "2020-03-18T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Irma C. Ramirez",
+        "judge": "Judge Irma C. Ramirez",
         "location": "Earle Cabell Federal Building",
-        "street": "1100 Commerce St.",
+        "street": "1102 Commerce Street",
         "citystatezip": "Dallas, TX 75242",
         "phone": "214-753-2200",
         "url": "http://www.txnd.uscourts.gov/naturalization-ceremony-schedule",
@@ -49,9 +49,9 @@
     {
         "date": "2020-04-15T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Sam A. Lindsay",
+        "judge": "Judge Sam A. Lindsay",
         "location": "Earle Cabell Federal Building",
-        "street": "1100 Commerce St.",
+        "street": "1103 Commerce Street",
         "citystatezip": "Dallas, TX 75242",
         "phone": "214-753-2200",
         "url": "http://www.txnd.uscourts.gov/naturalization-ceremony-schedule",
@@ -61,9 +61,9 @@
     {
         "date": "2020-05-14T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge James C. Ho",
+        "judge": "Judge James C. Ho",
         "location": "Earle Cabell Federal Building",
-        "street": "1100 Commerce St.",
+        "street": "1104 Commerce Street",
         "citystatezip": "Dallas, TX 75242",
         "phone": "214-753-2200",
         "url": "http://www.txnd.uscourts.gov/naturalization-ceremony-schedule",
@@ -73,9 +73,9 @@
     {
         "date": "2020-06-17T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge David L. Horan",
+        "judge": "Judge David L. Horan",
         "location": "Earle Cabell Federal Building",
-        "street": "1100 Commerce St.",
+        "street": "1105 Commerce Street",
         "citystatezip": "Dallas, TX 75242",
         "phone": "214-753-2200",
         "url": "http://www.txnd.uscourts.gov/naturalization-ceremony-schedule",
@@ -85,9 +85,9 @@
     {
         "date": "2020-07-15T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Irma C. Ramirez",
+        "judge": "Judge Irma C. Ramirez",
         "location": "Earle Cabell Federal Building",
-        "street": "1100 Commerce St.",
+        "street": "1106 Commerce Street",
         "citystatezip": "Dallas, TX 75242",
         "phone": "214-753-2200",
         "url": "http://www.txnd.uscourts.gov/naturalization-ceremony-schedule",
@@ -97,9 +97,9 @@
     {
         "date": "2020-08-19T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Harlin D. Hale",
+        "judge": "Judge Harlin D. Hale",
         "location": "Earle Cabell Federal Building",
-        "street": "1100 Commerce St.",
+        "street": "1107 Commerce Street",
         "citystatezip": "Dallas, TX 75242",
         "phone": "214-753-2200",
         "url": "http://www.txnd.uscourts.gov/naturalization-ceremony-schedule",
@@ -109,9 +109,9 @@
     {
         "date": "2020-09-16T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Chief Judge Barbara M. G. Lynn",
+        "judge": "Chief Judge Barbara M. G. Lynn",
         "location": "Earle Cabell Federal Building",
-        "street": "1100 Commerce St.",
+        "street": "1108 Commerce Street",
         "citystatezip": "Dallas, TX 75242",
         "phone": "214-753-2200",
         "url": "http://www.txnd.uscourts.gov/naturalization-ceremony-schedule",
@@ -121,9 +121,9 @@
     {
         "date": "2020-10-21T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Stacey Jernigan",
+        "judge": "Judge Stacey Jernigan",
         "location": "Earle Cabell Federal Building",
-        "street": "1100 Commerce St.",
+        "street": "1109 Commerce Street",
         "citystatezip": "Dallas, TX 75242",
         "phone": "214-753-2200",
         "url": "http://www.txnd.uscourts.gov/naturalization-ceremony-schedule",
@@ -133,9 +133,9 @@
     {
         "date": "2020-11-18T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Karen Gren Scholer",
+        "judge": "Judge Karen Gren Scholer",
         "location": "Earle Cabell Federal Building",
-        "street": "1100 Commerce St.",
+        "street": "1110 Commerce Street",
         "citystatezip": "Dallas, TX 75242",
         "phone": "214-753-2200",
         "url": "http://www.txnd.uscourts.gov/naturalization-ceremony-schedule",
@@ -145,9 +145,9 @@
     {
         "date": "2020-12-16T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Jane J. Boyle",
+        "judge": "Judge Jane J. Boyle",
         "location": "Earle Cabell Federal Building",
-        "street": "1100 Commerce St.",
+        "street": "1111 Commerce Street",
         "citystatezip": "Dallas, TX 75242",
         "phone": "214-753-2200",
         "url": "http://www.txnd.uscourts.gov/naturalization-ceremony-schedule",
@@ -174,7 +174,7 @@
     },
     {
         "location": "U. S. Citizenship and Immigration Services facility",
-        "street": "6500 Campus Cir Dr E",
+        "street": "6500 Campus Circle Drive E",
         "citystatezip": "Irving, TX, 75063",
         "url": "http://www.txed.uscourts.gov/?q=naturalization",
         "status2020": "incomplete",
@@ -291,9 +291,10 @@
     },
     {
         "time": "1899-12-30T15:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Raner C. Collins",
+        "judge": "Raner C. Collins",
         "location": "Evo A. DeConcini U.S. Courthouse in Special Proceedings Courtroom, 2nd Floor",
-        "street": "405 W Congress St #1500",
+        "room": "Suite 1500",
+        "street": "405 W. Congress Street",
         "citystatezip": "Tucson, AZ 85701",
         "url": "http://www.azd.uscourts.gov/sites/default/files/documents/Naturalization%20Ceremony-Tucson.pdf",
         "status2020": "incomplete",
@@ -302,9 +303,10 @@
     },
     {
         "time": "1899-12-30T06:30:00.000Z",
-        "districtmagistratebankruptcyJudges": "Leslie A. Bowman",
+        "judge": "Leslie A. Bowman",
         "location": "Evo A. DeConcini U.S. Courthouse in Special Proceedings Courtroom, 2nd Floor",
-        "street": "405 W Congress St #1500",
+        "room": "Suite 1500",
+        "street": "405 W. Congress Street",
         "citystatezip": "Tucson, AZ 85701",
         "url": "http://www.azd.uscourts.gov/sites/default/files/documents/Naturalization%20Ceremony-Tucson.pdf",
         "status2020": "incomplete",
@@ -313,7 +315,7 @@
     {
         "date": "2020-01-10T05:00:00.000Z",
         "time": "1899-12-30T14:30:00.000Z",
-        "districtmagistratebankruptcyJudges": "James F. Metcalf",
+        "judge": "James F. Metcalf",
         "location": "John M. Roll U.S. Courthouse",
         "street": "98 W 1st Street",
         "citystatezip": "Yuma, AZ 85364",
@@ -324,7 +326,7 @@
     {
         "date": "2020-02-07T05:00:00.000Z",
         "time": "1899-12-30T14:30:00.000Z",
-        "districtmagistratebankruptcyJudges": "James F. Metcalf",
+        "judge": "James F. Metcalf",
         "location": "John M. Roll U.S. Courthouse",
         "street": "98 W 1st Street",
         "citystatezip": "Yuma, AZ 85364",
@@ -335,7 +337,7 @@
     {
         "date": "2020-03-13T04:00:00.000Z",
         "time": "1899-12-30T14:30:00.000Z",
-        "districtmagistratebankruptcyJudges": "James F. Metcalf",
+        "judge": "James F. Metcalf",
         "location": "John M. Roll U.S. Courthouse",
         "street": "98 W 1st Street",
         "citystatezip": "Yuma, AZ 85364",
@@ -346,7 +348,7 @@
     {
         "date": "2020-04-10T04:00:00.000Z",
         "time": "1899-12-30T14:30:00.000Z",
-        "districtmagistratebankruptcyJudges": "James F. Metcalf",
+        "judge": "James F. Metcalf",
         "location": "John M. Roll U.S. Courthouse",
         "street": "98 W 1st Street",
         "citystatezip": "Yuma, AZ 85364",
@@ -357,7 +359,7 @@
     {
         "date": "2020-05-08T04:00:00.000Z",
         "time": "1899-12-30T15:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "James F. Metcalf",
+        "judge": "James F. Metcalf",
         "location": "John M. Roll U.S. Courthouse",
         "street": "98 W 1st Street",
         "citystatezip": "Yuma, AZ 85364",
@@ -368,7 +370,7 @@
     {
         "date": "2020-06-12T04:00:00.000Z",
         "time": "1899-12-30T18:30:00.000Z",
-        "districtmagistratebankruptcyJudges": "James F. Metcalf",
+        "judge": "James F. Metcalf",
         "location": "John M. Roll U.S. Courthouse",
         "street": "98 W 1st Street",
         "citystatezip": "Yuma, AZ 85364",
@@ -379,7 +381,7 @@
     {
         "date": "2019-12-20T05:00:00.000Z",
         "location": "Sandra Day O’Connor U.S. Courthouse in SPC Courtroom 200, 2nd Floor,",
-        "street": "401 W Washington Street",
+        "street": "401 West Washington Street",
         "citystatezip": "Phoenix, AZ 85003",
         "url": "http://www.azd.uscourts.gov/sites/default/files/documents/Naturalization%20Ceremony-Phoenix.pdf",
         "status2020": "incomplete",
@@ -842,6 +844,7 @@
         "location": "U.S. Post Office and Courthouse",
         "street": "700 Grant Street",
         "citystatezip": "Pittsburgh, PA 15219",
+        "genericLocation": "Pittsburgh ",
         "url": "https://www.pawd.uscourts.gov/naturalization",
         "status2020": "complete",
         "abbrev": "pawd",
@@ -853,6 +856,7 @@
         "location": "U.S. Post Office and Courthouse",
         "street": "700 Grant Street",
         "citystatezip": "Pittsburgh, PA 15219",
+        "genericLocation": "Pittsburgh ",
         "url": "https://www.pawd.uscourts.gov/naturalization",
         "status2020": "complete",
         "abbrev": "pawd",
@@ -861,7 +865,7 @@
     {
         "location": "Erie Federal Courthouse",
         "street": "617 State Street",
-        "citystatezip": "Erie, Pennsylvania 16501",
+        "citystatezip": "Erie, PA 16501",
         "genericLocation": "Erie Division",
         "url": "https://www.pawd.uscourts.gov/naturalization",
         "status2020": "incomplete",
@@ -898,7 +902,7 @@
     },
     {
         "location": "Delaware County Courthouse",
-        "street": "201 W. Front Street",
+        "street": "201 West Front Street",
         "citystatezip": "Media, PA 19063",
         "phone": "(610) 891-4000",
         "url": "https://delconew.azurewebsites.net/courts/naturalization.html",
@@ -938,7 +942,7 @@
     },
     {
         "date": "2020-09-18T04:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Reidinger",
+        "judge": "Judge Reidinger",
         "location": "United States Courthouse, Courtroom #1",
         "street": "100 Otis Street",
         "citystatezip": "Asheville, NC 28801",
@@ -950,13 +954,13 @@
     },
     {
         "date": "2020-08-14T04:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Codburn",
-        "location": "United States Courthouse, Courtroom #1\n",
+        "judge": "Judge Codburn",
+        "location": "United States Courthouse, Courtroom #1",
         "street": "100 Otis Street",
         "citystatezip": "Asheville, NC 28801",
         "phone": "828-771-7200",
         "genericLocation": "Asheville",
-        "url": "https://www.ncwd.uscourts.gov/content/naturalization-ceremony-19",
+        "url": "https://www.ncwd.uscourts.gov/content/naturalization",
         "status2020": "a",
         "abbrev": "ncwd",
         "notes": "no NV naturalization URL"
@@ -1755,7 +1759,7 @@
         "date": "2020-07-04T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
         "location": "Iowa Cubs  (Principal Park)",
-        "street": "1 Line Dr",
+        "street": "1 Line Drive",
         "citystatezip": "Des Moines, IA 50309",
         "url": "https://www.iasd.uscourts.gov/apply-naturalization",
         "status2020": "complete",
@@ -1834,7 +1838,7 @@
     },
     {
         "location": "Herbert Hoover Presidential Library and Museum",
-        "street": "210 Parkside Dr",
+        "street": "210 Parkside Drive",
         "citystatezip": "West Branch, IA 52358",
         "url": "https://www.iand.uscourts.gov/naturalization",
         "status2020": "incomplete",
@@ -1850,7 +1854,7 @@
     },
     {
         "location": "University of Northern Iowa - Maucker Union Ballroom",
-        "street": "063 Sabin-Maucker",
+        "street": "63 Sabin-Maucker",
         "citystatezip": "Cedar Falls, IA 50614",
         "url": "https://www.iand.uscourts.gov/naturalization",
         "status2020": "incomplete",
@@ -1974,9 +1978,9 @@
         "abbrev": "gand"
     },
     {
-        "districtmagistratebankruptcyJudges": "Judge Land",
+        "judge": "Judge Land",
         "location": "U.S. Post Office and Courthouse",
-        "street": "120 12th St, Columbus",
+        "street": "120 12th Street",
         "citystatezip": "Columbus, GA 31901",
         "phone": "706-649-7816",
         "genericLocation": "Columbus",
@@ -1986,7 +1990,7 @@
         "notes": "first day of the September Trial Term."
     },
     {
-        "districtmagistratebankruptcyJudges": "Judge Treadwell",
+        "judge": "Judge Treadwell",
         "location": "U.S. District Court",
         "street": "475 Mulberry Street",
         "citystatezip": "Macon, GA 31201",
@@ -2018,9 +2022,9 @@
     {
         "date": "2020-01-09T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Ludwig",
+        "judge": "Judge Ludwig",
         "location": "Milwaukee Courthouse",
-        "room": "Centennial Courtroom 319",
+        "room": "Centennial Courtroom 320",
         "street": "517 East Wisconsin Avenue",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
@@ -2030,10 +2034,10 @@
     {
         "date": "2020-01-09T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Hanan",
+        "judge": "Judge Hanan",
         "location": "Milwaukee Courthouse",
         "room": "Centennial Courtroom 320",
-        "street": "517 East Wisconsin Avenue Milwaukee, WI 53202",
+        "street": "517 East Wisconsin Avenue",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
@@ -2042,10 +2046,10 @@
     {
         "date": "2020-01-23T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Joseph",
+        "judge": "Judge Joseph",
         "location": "Milwaukee Courthouse",
         "room": "Centennial Courtroom 320",
-        "street": "517 East Wisconsin Avenue Milwaukee, WI 53202",
+        "street": "517 East Wisconsin Avenue",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
@@ -2054,10 +2058,10 @@
     {
         "date": "2020-01-23T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Hanan",
+        "judge": "Judge Hanan",
         "location": "Milwaukee Courthouse",
         "room": "Centennial Courtroom 320",
-        "street": "517 East Wisconsin Avenue Milwaukee, WI 53202",
+        "street": "517 East Wisconsin Avenue",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
@@ -2066,10 +2070,10 @@
     {
         "date": "2020-01-23T05:00:00.000Z",
         "time": "1899-12-30T19:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Gorence",
+        "judge": "Judge Gorence",
         "location": "Milwaukee Courthouse",
         "room": "Centennial Courtroom 320",
-        "street": "517 East Wisconsin Avenue Milwaukee, WI 53202",
+        "street": "517 East Wisconsin Avenue",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
@@ -2078,10 +2082,10 @@
     {
         "date": "2020-02-06T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Ludwig",
+        "judge": "Judge Ludwig",
         "location": "Milwaukee Courthouse",
         "room": "Centennial Courtroom 320",
-        "street": "517 East Wisconsin Avenue Milwaukee, WI 53202",
+        "street": "517 East Wisconsin Avenue",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
@@ -2090,10 +2094,10 @@
     {
         "date": "2020-02-06T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Hanan",
+        "judge": "Judge Hanan",
         "location": "Milwaukee Courthouse",
         "room": "Centennial Courtroom 320",
-        "street": "517 East Wisconsin Avenue Milwaukee, WI 53202",
+        "street": "517 East Wisconsin Avenue",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
@@ -2102,10 +2106,10 @@
     {
         "date": "2020-02-20T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Ludwig",
+        "judge": "Judge Ludwig",
         "location": "Milwaukee Courthouse",
         "room": "Ceremonial Courtroom 390",
-        "street": "517 East Wisconsin Avenue Milwaukee, WI 53202",
+        "street": "517 East Wisconsin Avenue",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
@@ -2114,10 +2118,10 @@
     {
         "date": "2020-02-20T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Gorence",
+        "judge": "Judge Gorence",
         "location": "Milwaukee Courthouse",
         "room": "Ceremonial Courtroom 390",
-        "street": "517 East Wisconsin Avenue Milwaukee, WI 53202",
+        "street": "517 East Wisconsin Avenue",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
@@ -2126,10 +2130,10 @@
     {
         "date": "2020-02-20T05:00:00.000Z",
         "time": "1899-12-30T19:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Perhach",
+        "judge": "Judge Perhach",
         "location": "Milwaukee Courthouse",
         "room": "Ceremonial Courtroom 390",
-        "street": "517 East Wisconsin Avenue Milwaukee, WI 53202",
+        "street": "517 East Wisconsin Avenue",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
@@ -2138,10 +2142,10 @@
     {
         "date": "2020-03-05T05:00:00.000Z",
         "time": "1899-12-30T15:30:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Hanan",
+        "judge": "Judge Hanan",
         "location": "MATC - Cooley Auditorium",
         "room": "2nd Floor, M-Building",
-        "street": "1015 North Sixth Street",
+        "street": "1015 N. 6th St.",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
@@ -2150,10 +2154,10 @@
     {
         "date": "2020-03-19T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge",
+        "judge": "Judge",
         "location": "Milwaukee Courthouse",
         "room": "Centennial Courtroom 320",
-        "street": "517 East Wisconsin Avenue Milwaukee, WI 53202",
+        "street": "517 East Wisconsin Avenue",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
@@ -2162,10 +2166,10 @@
     {
         "date": "2020-03-19T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Joseph",
+        "judge": "Judge Joseph",
         "location": "Milwaukee Courthouse",
         "room": "Centennial Courtroom 320",
-        "street": "517 East Wisconsin Avenue Milwaukee, WI 53202",
+        "street": "517 East Wisconsin Avenue",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
@@ -2174,10 +2178,10 @@
     {
         "date": "2020-03-19T04:00:00.000Z",
         "time": "1899-12-30T19:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Brennan",
+        "judge": "Judge Brennan",
         "location": "Milwaukee Courthouse",
         "room": "Centennial Courtroom 320",
-        "street": "517 East Wisconsin Avenue Milwaukee, WI 53202",
+        "street": "517 East Wisconsin Avenue",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
@@ -2186,10 +2190,10 @@
     {
         "date": "2020-04-02T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Ludwig",
+        "judge": "Judge Ludwig",
         "location": "Milwaukee Courthouse",
         "room": "Centennial Courtroom 320",
-        "street": "517 East Wisconsin Avenue Milwaukee, WI 53202",
+        "street": "517 East Wisconsin Avenue",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
@@ -2198,10 +2202,10 @@
     {
         "date": "2020-04-02T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Hanan",
+        "judge": "Judge Hanan",
         "location": "Milwaukee Courthouse",
         "room": "Centennial Courtroom 320",
-        "street": "517 East Wisconsin Avenue Milwaukee, WI 53202",
+        "street": "517 East Wisconsin Avenue",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
@@ -2210,10 +2214,10 @@
     {
         "date": "2020-04-02T04:00:00.000Z",
         "time": "1899-12-30T19:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Perhach",
+        "judge": "Judge Perhach",
         "location": "Milwaukee Courthouse",
         "room": "Centennial Courtroom 320",
-        "street": "517 East Wisconsin Avenue Milwaukee, WI 53202",
+        "street": "517 East Wisconsin Avenue",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
@@ -2222,10 +2226,10 @@
     {
         "date": "2020-04-23T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Duffin",
+        "judge": "Judge Duffin",
         "location": "Milwaukee Courthouse",
         "room": "Ceremonial Courtroom 390",
-        "street": "517 East Wisconsin Avenue Milwaukee, WI 53202",
+        "street": "517 East Wisconsin Avenue",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
@@ -2234,10 +2238,10 @@
     {
         "date": "2020-04-23T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Goodstein",
+        "judge": "Judge Goodstein",
         "location": "Milwaukee Courthouse",
         "room": "Ceremonial Courtroom 390",
-        "street": "517 East Wisconsin Avenue Milwaukee, WI 53202",
+        "street": "517 East Wisconsin Avenue",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
@@ -2246,10 +2250,10 @@
     {
         "date": "2020-04-23T04:00:00.000Z",
         "time": "1899-12-30T19:00:00.000Z",
-        "districtmagistratebankruptcyJudges": "Judge Callahan",
+        "judge": "Judge Callahan",
         "location": "Milwaukee Courthouse",
         "room": "Ceremonial Courtroom 390",
-        "street": "517 East Wisconsin Avenue Milwaukee, WI 53202",
+        "street": "517 East Wisconsin Avenue",
         "citystatezip": "Milwaukee, WI 53202",
         "url": "https://www.wied.uscourts.gov/naturalization-ceremonies",
         "status2020": "incomplete",
@@ -2433,7 +2437,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-02-07T05:00:00.000Z",
+        "date": "2020-02-14T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -2444,7 +2448,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-02-07T05:00:00.000Z",
+        "date": "2020-02-14T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -2455,7 +2459,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-02-07T05:00:00.000Z",
+        "date": "2020-02-14T05:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -2466,7 +2470,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-02-07T05:00:00.000Z",
+        "date": "2020-02-14T05:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -2477,7 +2481,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-02-21T05:00:00.000Z",
+        "date": "2020-02-28T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -2488,7 +2492,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-02-21T05:00:00.000Z",
+        "date": "2020-02-28T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -2499,7 +2503,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-02-21T05:00:00.000Z",
+        "date": "2020-02-28T05:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -2510,51 +2514,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-02-21T05:00:00.000Z",
-        "time": "1899-12-30T20:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
-    },
-    {
-        "date": "2020-03-06T05:00:00.000Z",
-        "time": "1899-12-30T14:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
-    },
-    {
-        "date": "2020-03-06T05:00:00.000Z",
-        "time": "1899-12-30T16:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
-    },
-    {
-        "date": "2020-03-06T05:00:00.000Z",
-        "time": "1899-12-30T18:00:00.000Z",
-        "location": "Lloyd D. George U.S. Courthouse",
-        "street": "333 Las Vegas Boulevard",
-        "citystatezip": "Las Vegas, NV 89101",
-        "phone": "(702) 464-5400",
-        "url": "https://www.nvd.uscourts.gov/",
-        "status2020": "complete",
-        "abbrev": "nvd"
-    },
-    {
-        "date": "2020-03-06T05:00:00.000Z",
+        "date": "2020-02-28T05:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -2609,7 +2569,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-03-20T04:00:00.000Z",
+        "date": "2020-03-13T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -2620,7 +2580,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-03-20T04:00:00.000Z",
+        "date": "2020-03-13T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -2631,7 +2591,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-03-20T04:00:00.000Z",
+        "date": "2020-03-13T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -2642,7 +2602,51 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-03-20T04:00:00.000Z",
+        "date": "2020-03-13T04:00:00.000Z",
+        "time": "1899-12-30T20:00:00.000Z",
+        "location": "Lloyd D. George U.S. Courthouse",
+        "street": "333 Las Vegas Boulevard",
+        "citystatezip": "Las Vegas, NV 89101",
+        "phone": "(702) 464-5400",
+        "url": "https://www.nvd.uscourts.gov/",
+        "status2020": "complete",
+        "abbrev": "nvd"
+    },
+    {
+        "date": "2020-03-27T04:00:00.000Z",
+        "time": "1899-12-30T14:00:00.000Z",
+        "location": "Lloyd D. George U.S. Courthouse",
+        "street": "333 Las Vegas Boulevard",
+        "citystatezip": "Las Vegas, NV 89101",
+        "phone": "(702) 464-5400",
+        "url": "https://www.nvd.uscourts.gov/",
+        "status2020": "complete",
+        "abbrev": "nvd"
+    },
+    {
+        "date": "2020-03-27T04:00:00.000Z",
+        "time": "1899-12-30T16:00:00.000Z",
+        "location": "Lloyd D. George U.S. Courthouse",
+        "street": "333 Las Vegas Boulevard",
+        "citystatezip": "Las Vegas, NV 89101",
+        "phone": "(702) 464-5400",
+        "url": "https://www.nvd.uscourts.gov/",
+        "status2020": "complete",
+        "abbrev": "nvd"
+    },
+    {
+        "date": "2020-03-27T04:00:00.000Z",
+        "time": "1899-12-30T18:00:00.000Z",
+        "location": "Lloyd D. George U.S. Courthouse",
+        "street": "333 Las Vegas Boulevard",
+        "citystatezip": "Las Vegas, NV 89101",
+        "phone": "(702) 464-5400",
+        "url": "https://www.nvd.uscourts.gov/",
+        "status2020": "complete",
+        "abbrev": "nvd"
+    },
+    {
+        "date": "2020-03-27T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -3225,7 +3229,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-08-07T04:00:00.000Z",
+        "date": "2020-08-14T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -3236,7 +3240,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-08-07T04:00:00.000Z",
+        "date": "2020-08-14T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -3247,7 +3251,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-08-07T04:00:00.000Z",
+        "date": "2020-08-14T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -3258,7 +3262,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-08-07T04:00:00.000Z",
+        "date": "2020-08-14T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -3269,7 +3273,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-08-21T04:00:00.000Z",
+        "date": "2020-08-28T04:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -3280,7 +3284,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-08-21T04:00:00.000Z",
+        "date": "2020-08-28T04:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -3291,7 +3295,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-08-21T04:00:00.000Z",
+        "date": "2020-08-28T04:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -3302,7 +3306,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-08-21T04:00:00.000Z",
+        "date": "2020-08-28T04:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -3621,7 +3625,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-11-06T05:00:00.000Z",
+        "date": "2020-11-13T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -3632,7 +3636,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-11-06T05:00:00.000Z",
+        "date": "2020-11-13T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -3643,7 +3647,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-11-06T05:00:00.000Z",
+        "date": "2020-11-13T05:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -3654,7 +3658,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-11-06T05:00:00.000Z",
+        "date": "2020-11-13T05:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -3665,7 +3669,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-11-20T05:00:00.000Z",
+        "date": "2020-11-27T05:00:00.000Z",
         "time": "1899-12-30T14:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -3676,7 +3680,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-11-20T05:00:00.000Z",
+        "date": "2020-11-27T05:00:00.000Z",
         "time": "1899-12-30T16:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -3687,7 +3691,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-11-20T05:00:00.000Z",
+        "date": "2020-11-27T05:00:00.000Z",
         "time": "1899-12-30T18:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
@@ -3698,7 +3702,7 @@
         "abbrev": "nvd"
     },
     {
-        "date": "2020-11-20T05:00:00.000Z",
+        "date": "2020-11-27T05:00:00.000Z",
         "time": "1899-12-30T20:00:00.000Z",
         "location": "Lloyd D. George U.S. Courthouse",
         "street": "333 Las Vegas Boulevard",
