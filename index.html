@@ -3,16 +3,20 @@
 <head>
     <meta charset="utf-8">
     <title>Citizen Naturalization Ceremonies</title>
-
+<!--    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     <script src="cal-heatmap-master/jquery-3.4.1.min.js"></script>
     <script src="cal-heatmap-master/d3.min.js"></script>
 
     <link rel="stylesheet" href="cal-heatmap-master/cal-heatmap.css" />
     <script type="text/javascript" src="cal-heatmap-master/cal-heatmap.js"></script>
-
+    <style>
+        input[type=checkbox] {margin: 0 5px 0 5px;}
+    </style>
 </head>
 
 <body>
+<div class="container">
 <br><br>
 <span style="display: -webkit-box;">
         Select State
@@ -73,17 +77,17 @@
        <div id="checkBoxSection">
             <div id="checkBoxSection">
 
-                <div id="TextBoxDiv-S" style="display: inline;"><label><input id="checkbox-S" type="checkbox" checked="">South</label></div>
-                <div id="TextBoxDiv-N" style="display: inline;"><label><input id="checkbox-N" type="checkbox" checked="">North</label></div>
-                <div id="TextBoxDiv-W" style="display: inline;"><label><input id="checkbox-W" type="checkbox" checked="">West</label></div>
-                <div id="TextBoxDiv-E" style="display: inline;"><label><input id="checkbox-E" type="checkbox" checked="">East</label></div>
+                <div id="TextBoxDiv-S" style="display: inline;"><label><input id="checkbox-S" type="checkbox" checked="">Southern</label></div>
+                <div id="TextBoxDiv-N" style="display: inline;"><label><input id="checkbox-N" type="checkbox" checked="">Northern</label></div>
+                <div id="TextBoxDiv-W" style="display: inline;"><label><input id="checkbox-W" type="checkbox" checked="">Western</label></div>
+                <div id="TextBoxDiv-E" style="display: inline;"><label><input id="checkbox-E" type="checkbox" checked="">Eastern</label></div>
                 <div id="TextBoxDiv-M" style="display: inline;"><label><input id="checkbox-M" type="checkbox" checked="">Middle</label></div>
 
                 <div id="TextBoxDiv-D" style="display: inline;"><label><input id="checkbox-D" type="checkbox" checked="">District</label></div>
             </div>
        </div>
     </span>
-<br><br>
+<br>
 <div id="pub-heatmap-1"></div>
 <div id="pub-heatmap-2"></div>
 <div id="pub-heatmap-3"></div>
@@ -243,6 +247,8 @@
 
                         }else{
                             $('#TextBoxDiv-'+lastChars.charAt(0)).show();
+                            $('#TextBoxDiv-D').hide();
+
                         }
 
                         //}
@@ -272,8 +278,7 @@
         });
 
 
-    $('#TextBoxDiv-D').hide();
-    function hideAllCheckbox(){
+    function hideAllCheckboxes(){
 
         $('#checkbox-S').prop('checked', true);
         $('#checkbox-N').prop('checked', true);
@@ -292,10 +297,11 @@
     }
 
     $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
+        hideAllCheckboxes();
 
         //**********************************************************************************
         $("#states_field").change(function(){ //EVENT FOR THE DROP DOWN VALUE CHANGE
-            hideAllCheckbox();
+            hideAllCheckboxes();
             $('input:checkbox').trigger('change');
         });
 //******************************************************************************************
@@ -499,7 +505,6 @@
 
                     var lastChars = stateL.substring(2, stateL.length);
                     lastChars=lastChars.toUpperCase();
-
                     if(selected_state=='all' || selected_state==stateCharacters){
 
                         if(
@@ -510,10 +515,20 @@
                             ($('#checkbox-W').is(":checked") && lastChars.indexOf('W') > -1) ||
                             ($('#checkbox-N').is(":checked") && lastChars.indexOf('N') > -1) )
                         {
+                            $('#TextBoxDiv-D').hide();
+
+                            $('#checkbox-D').hide();
+
+                            if (dataJson[i].time) {
+                                var theTime = " " + dataJson[i].time;
+                            }else{
+                                var theTime = " Time TBD";
+                            }
                             if(dataJson[i].url == undefined){
                                 $("#resultClick").append("<br> <span > no URL found for event " + eventNum  +"</span> ");
                             }else{
-                                $("#resultClick").append("<br> Event "+ eventNum +
+
+                                $("#resultClick").append("<br>"+ theTime +
                                     ": " +
                                     dataJson[i].location + " " +
                                     dataJson[i].street + ", " + dataJson[i].citystatezip +
@@ -532,7 +547,7 @@
     }
 </script>
 
-
+</div>
 
 </body>
 </html>
