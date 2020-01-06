@@ -1,20 +1,20 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Citizen Naturalization Ceremonies</title>
+    <meta charset="utf-8">
+    <title>Citizen Naturalization Ceremonies</title>
 
-<script src="cal-heatmap-master/jquery-3.4.1.min.js"></script>
-<script src="cal-heatmap-master/d3.min.js"></script>
+    <script src="cal-heatmap-master/jquery-3.4.1.min.js"></script>
+    <script src="cal-heatmap-master/d3.min.js"></script>
 
-<link rel="stylesheet" href="cal-heatmap-master/cal-heatmap.css" />
-<script type="text/javascript" src="cal-heatmap-master/cal-heatmap.js"></script>
+    <link rel="stylesheet" href="cal-heatmap-master/cal-heatmap.css" />
+    <script type="text/javascript" src="cal-heatmap-master/cal-heatmap.js"></script>
 
 </head>
 
 <body>
-    <br><br>
-    <span style="display: -webkit-box;">
+<br><br>
+<span style="display: -webkit-box;">
         Select State
         <select id='states_field'>
             <option value="all">All States</option>
@@ -83,13 +83,13 @@
             </div>
        </div>
     </span>
-    <br><br>
-    <div id="pub-heatmap-1"></div>
-    <div id="pub-heatmap-2"></div>
-    <div id="pub-heatmap-3"></div>
-    <div id="pub-heatmap-4"></div>
-    <br><br>
-    <div id="resultClick"></div>
+<br><br>
+<div id="pub-heatmap-1"></div>
+<div id="pub-heatmap-2"></div>
+<div id="pub-heatmap-3"></div>
+<div id="pub-heatmap-4"></div>
+<br><br>
+<div id="resultClick"></div>
 
 <script type="text/javascript">
 
@@ -116,158 +116,164 @@
             });
         }
     });
-/*
-var parser = function(data) {
-	var stats = {};
-	for (var d in data) {
-		stats[data[d].date] = data[d].value;
-	}
-	return stats;
-};
-*/
-/*
-var newTextBoxDiv = $(document.createElement('div')).attr("id", 'TextBoxDiv');
-    newTextBoxDiv.after().html('<label><input type="checkbox" checked="">East</input></label>');
-    newTextBoxDiv.appendTo("#checkBoxSection");
- */
+    /*
+    var parser = function(data) {
+      var stats = {};
+      for (var d in data) {
+        stats[data[d].date] = data[d].value;
+      }
+      return stats;
+    };
+    */
+    /*
+    var newTextBoxDiv = $(document.createElement('div')).attr("id", 'TextBoxDiv');
+        newTextBoxDiv.after().html('<label><input type="checkbox" checked="">East</input></label>');
+        newTextBoxDiv.appendTo("#checkBoxSection");
+     */
 
-stateList =
-{ AZ: 'Arizona',
-AL: 'Alabama',
-AK: 'Alaska',
-AR: 'Arkansas',
-CA: 'California',
-CO: 'Colorado',
-CT: 'Connecticut',
-DC: 'District of Columbia',
-DE: 'Delaware',
-FL: 'Florida',
-GA: 'Georgia',
-HI: 'Hawaii',
-ID: 'Idaho',
-IL: 'Illinois',
-IN: 'Indiana',
-IA: 'Iowa',
-KS: 'Kansas',
-KY: 'Kentucky',
-LA: 'Louisiana',
-ME: 'Maine',
-MD: 'Maryland',
-MA: 'Massachusetts',
-MI: 'Michigan',
-MN: 'Minnesota',
-MS: 'Mississippi',
-MO: 'Missouri',
-MT: 'Montana',
-NE: 'Nebraska',
-NV: 'Nevada',
-NH: 'New Hampshire',
-NJ: 'New Jersey',
-NM: 'New Mexico',
-NY: 'New York',
-NC: 'North Carolina',
-ND: 'North Dakota',
-OH: 'Ohio',
-OK: 'Oklahoma',
-OR: 'Oregon',
-PA: 'Pennsylvania',
-RI: 'Rhode Island',
-SC: 'South Carolina',
-SD: 'South Dakota',
-TN: 'Tennessee',
-TX: 'Texas',
-UT: 'Utah',
-VT: 'Vermont',
-VA: 'Virginia',
-WA: 'Washington',
-WV: 'West Virginia',
-WI: 'Wisconsin',
-WY: 'Wyoming' }
+    stateList =
+        { AZ: 'Arizona',
+            AL: 'Alabama',
+            AK: 'Alaska',
+            AR: 'Arkansas',
+            CA: 'California',
+            CO: 'Colorado',
+            CT: 'Connecticut',
+            DC: 'District of Columbia',
+            DE: 'Delaware',
+            FL: 'Florida',
+            GA: 'Georgia',
+            HI: 'Hawaii',
+            ID: 'Idaho',
+            IL: 'Illinois',
+            IN: 'Indiana',
+            IA: 'Iowa',
+            KS: 'Kansas',
+            KY: 'Kentucky',
+            LA: 'Louisiana',
+            ME: 'Maine',
+            MD: 'Maryland',
+            MA: 'Massachusetts',
+            MI: 'Michigan',
+            MN: 'Minnesota',
+            MS: 'Mississippi',
+            MO: 'Missouri',
+            MT: 'Montana',
+            NE: 'Nebraska',
+            NV: 'Nevada',
+            NH: 'New Hampshire',
+            NJ: 'New Jersey',
+            NM: 'New Mexico',
+            NY: 'New York',
+            NC: 'North Carolina',
+            ND: 'North Dakota',
+            OH: 'Ohio',
+            OK: 'Oklahoma',
+            OR: 'Oregon',
+            PA: 'Pennsylvania',
+            RI: 'Rhode Island',
+            SC: 'South Carolina',
+            SD: 'South Dakota',
+            TN: 'Tennessee',
+            TX: 'Texas',
+            UT: 'Utah',
+            VT: 'Vermont',
+            VA: 'Virginia',
+            WA: 'Washington',
+            WV: 'West Virginia',
+            WI: 'Wisconsin',
+            WY: 'Wyoming' }
 
 
-var dataForInput={};
-var dataJson;
-var pub1 = new CalHeatMap();
-var pub2 = new CalHeatMap();
-var pub3 = new CalHeatMap();
-var pub4 = new CalHeatMap();
+    var dataForInput={};
+    var dataJson;
+    var pub1 = new CalHeatMap();
+    var pub2 = new CalHeatMap();
+    var pub3 = new CalHeatMap();
+    var pub4 = new CalHeatMap();
 
-function createCheckbox(id){
+    /*
+    function createCheckbox(id){
 
-    id=id.toUpperCase();
-    var nameIs="";
-    if($("#TextBoxDiv-"+id).length != 0) {
-        return;
+        id=id.toUpperCase();
+        var nameIs="";
+        if($("#TextBoxDiv-"+id).length != 0) {
+            return;
+        }
+        if(id=='S'){
+            name="South";
+        }else if(id=='N'){
+            name="North";
+        }else if(id=='W'){
+            name="West";
+        }else if(id=='E'){
+            name="East";
+        }else if(id=='M'){
+            name="Middle";
+        }else if(id=='D'){
+            name="District";
+        }
+        var newTextBoxDiv = $(document.createElement('div')).attr("id", 'TextBoxDiv-'+id);
+        newTextBoxDiv.after().html('<label><input id="checkbox-'+id+'" type="checkbox" checked="">'+name+'</input></label>');
+        newTextBoxDiv.appendTo("#checkBoxSection");
     }
-    if(id=='S'){
-        name="South";
-    }else if(id=='N'){
-        name="North";
-    }else if(id=='W'){
-        name="West";
-    }else if(id=='E'){
-        name="East";
-    }else if(id=='M'){
-        name="Middle";
-    }else if(id=='D'){
-        name="District";
-    }
-    var newTextBoxDiv = $(document.createElement('div')).attr("id", 'TextBoxDiv-'+id);
-    newTextBoxDiv.after().html('<label><input id="checkbox-'+id+'" type="checkbox" checked="">'+name+'</input></label>');
-    newTextBoxDiv.appendTo("#checkBoxSection");
-}
+    */
 
+    $('input:checkbox').change(
+        function(){
+            $("#resultClick").html("");
+            var selected_state=$("#states_field  option:selected").val();
+            dataForInput=[];
+            //console.log("The text has been changed."+ selected_state);
+            for (var i = 0; i < dataJson.length; i++) {
+                if(dataJson[i].date != undefined ){
+                    var stateL=dataJson[i].abbrev;
+                    //*** making a string for the calender, that is how many events in specific date (array depends on the second of the event)
+                    var stateCharacters = stateL.substring(0, 2).toUpperCase();
+                    var dateIs = new Date(dataJson[i].date);
+                    var secondsIs = dateIs.getTime() / 1000;
 
-$('input:checkbox').change(
-    function(){
-        $("#resultClick").html("");
-        var selected_state=$("#states_field  option:selected").val();
-        dataForInput=[];
-        //console.log("The text has been changed."+ selected_state);
-        for (var i = 0; i < dataJson.length; i++) {
-            if(dataJson[i].date != undefined ){
-                var stateL=dataJson[i].abbrev;
-                //*** making a string for the calender, that is how many events in specific date (array depends on the second of the event)
-                var stateCharacters = stateL.substring(0, 2).toUpperCase();
-                var dateIs = new Date(dataJson[i].date);
-                var secondsIs = dateIs.getTime() / 1000;
+                    var lastChars =  stateL.substring(2, stateL.length);
+                    lastChars=lastChars.toUpperCase();
+                    //console.log(lastChars);
+                    if(selected_state=='all' || selected_state==stateCharacters){
 
-                var lastChars = stateL.substring(2, stateL.length);
-                lastChars=lastChars.toUpperCase();
+                        // for(b=0;b<lastChars.length;b++){
+                        if(selected_state=='all' && lastChars.charAt(0)=='D'){
 
-                if(selected_state=='all' || selected_state==stateCharacters){
-
-                    for(b=0;b<lastChars.length;b++){
-                        $('#TextBoxDiv-'+lastChars.charAt(b)).show();
-                    }
-
-                    if(
-                        ($('#checkbox-S').is(":checked") && lastChars.indexOf('S') > -1) ||
-                        ($('#checkbox-D').is(":checked") && lastChars.indexOf('D') > -1) ||
-                        ($('#checkbox-M').is(":checked") && lastChars.indexOf('M') > -1) ||
-                        ($('#checkbox-E').is(":checked") && lastChars.indexOf('E') > -1) ||
-                        ($('#checkbox-W').is(":checked") && lastChars.indexOf('W') > -1) ||
-                        ($('#checkbox-N').is(":checked") && lastChars.indexOf('N') > -1) )
-                        {
-                        if(dataForInput[secondsIs]==undefined){
-                            dataForInput[secondsIs] =  1;
                         }else{
-                            dataForInput[secondsIs] =  dataForInput[secondsIs] + 1;
+                            $('#TextBoxDiv-'+lastChars.charAt(0)).show();
+                        }
+
+                        //}
+
+                        if(
+                            ($('#checkbox-S').is(":checked") && lastChars.indexOf('SD') > -1) ||
+                            ($('#checkbox-D').is(":checked") && lastChars.charAt(0)=='D') ||  //lastChars.indexOf('D') > -1
+                            ($('#checkbox-M').is(":checked") && lastChars.indexOf('MD') > -1) ||
+                            ($('#checkbox-E').is(":checked") && lastChars.indexOf('ED') > -1) ||
+                            ($('#checkbox-W').is(":checked") && lastChars.indexOf('WD') > -1) ||
+                            ($('#checkbox-N').is(":checked") && lastChars.indexOf('ND') > -1) )
+                        {
+                            if(dataForInput[secondsIs]==undefined){
+                                dataForInput[secondsIs] =  1;
+                            }else{
+                                dataForInput[secondsIs] =  dataForInput[secondsIs] + 1;
+                            }
                         }
                     }
                 }
             }
-        }
-        pub1.update(dataForInput);
-        pub2.update(dataForInput);
-        pub3.update(dataForInput);
-        pub4.update(dataForInput);
+            pub1.update(dataForInput);
+            pub2.update(dataForInput);
+            pub3.update(dataForInput);
+            pub4.update(dataForInput);
 
-     });
-
+        });
 
 
-function hideAllCheckbox(){
+    $('#TextBoxDiv-D').hide();
+    function hideAllCheckbox(){
 
         $('#checkbox-S').prop('checked', true);
         $('#checkbox-N').prop('checked', true);
@@ -283,57 +289,15 @@ function hideAllCheckbox(){
         $('#TextBoxDiv-M').hide();
         $('#TextBoxDiv-D').hide();
 
-}
+    }
 
-$(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
+    $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
 
-   //**********************************************************************************
-    $("#states_field").change(function(){ //EVENT FOR THE DROP DOWN VALUE CHANGE
-        console.log('dsd');
-        hideAllCheckbox();
-        $("#resultClick").html("");
-        var selected_state=$("#states_field  option:selected").val();
-        dataForInput=[];
-        //console.log("The text has been changed."+ selected_state);
-        for (var i = 0; i < dataJson.length; i++) {
-            if(dataJson[i].date != undefined ){
-                var stateL=dataJson[i].abbrev;
-                //*** making a string for the calender, that is how many events in specific date (array depends on the second of the event)
-                var stateCharacters = stateL.substring(0, 2).toUpperCase();
-                var dateIs = new Date(dataJson[i].date);
-                var secondsIs = dateIs.getTime() / 1000;
-
-                var lastChars = stateL.substring(2, stateL.length);
-                lastChars=lastChars.toUpperCase();
-
-                if(selected_state=='all' || selected_state==stateCharacters){
-
-                    for(b=0;b<lastChars.length;b++){
-                        $('#TextBoxDiv-'+lastChars.charAt(b)).show();
-                    }
-
-                    if(
-                        ($('#checkbox-S').is(":checked") && lastChars.indexOf('S') > -1) ||
-                        ($('#checkbox-D').is(":checked") && lastChars.indexOf('D') > -1) ||
-                        ($('#checkbox-M').is(":checked") && lastChars.indexOf('M') > -1) ||
-                        ($('#checkbox-E').is(":checked") && lastChars.indexOf('E') > -1) ||
-                        ($('#checkbox-W').is(":checked") && lastChars.indexOf('W') > -1) ||
-                        ($('#checkbox-N').is(":checked") && lastChars.indexOf('N') > -1) )
-                        {
-                        if(dataForInput[secondsIs]==undefined){
-                            dataForInput[secondsIs] =  1;
-                        }else{
-                            dataForInput[secondsIs] =  dataForInput[secondsIs] + 1;
-                        }
-                    }
-                }
-            }
-        }
-        pub1.update(dataForInput);
-        pub2.update(dataForInput);
-        pub3.update(dataForInput);
-        pub4.update(dataForInput);
-    });
+        //**********************************************************************************
+        $("#states_field").change(function(){ //EVENT FOR THE DROP DOWN VALUE CHANGE
+            hideAllCheckbox();
+            $('input:checkbox').trigger('change');
+        });
 //******************************************************************************************
 
 
@@ -343,7 +307,7 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
             dataJson=data;
             for (var i = 0; i < data.length; i++) {
                 if(data[i].date != undefined ){
-                   var stateL=data[i].abbrev;
+                    var stateL=data[i].abbrev;
                     //*** making a string for the calender, that is how many events in specific date (array depends on the second of the event)
                     var dateIs = new Date(data[i].date);
                     var secondsIs = dateIs.getTime() / 1000;
@@ -351,21 +315,22 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
                         dataForInput[secondsIs] =  1;
                     }else{
                         dataForInput[secondsIs] =  dataForInput[secondsIs] + 1;
-                   }
+                    }
                     //**** adding unique state in the drop down
                     var stateCharacters = stateL.substring(0, 2).toUpperCase();
+
                     var optionExists = ($('#states_field option[value=' + stateCharacters + ']').length > 0);
                     if(!optionExists)
                     {
                         $('#states_field').append("<option value="+stateCharacters+">"+stateList[stateCharacters]+"</option>");
                     }
                     $("#states_field").sortSelect();
-                    var lastChars = stateL.substring(2, stateL.length);
-                    for(b=0;b<lastChars.length;b++){
-                        createCheckbox(lastChars.charAt(b));
-                    }
+                    //var lastChars = stateL.substring(2, stateL.length);
+                    /* for(b=0;b<lastChars.length;b++){
+                         createCheckbox(lastChars.charAt(b));
+                     }*/
 
-               }
+                }
             }
 
 
@@ -495,7 +460,7 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
         });// END OF JSON FILE LOAD
 
 
-});//END OF FUNCTION LOAD DOCUMENT
+    });//END OF FUNCTION LOAD DOCUMENT
 
 
 
@@ -503,57 +468,68 @@ $(document).ready ( function(){ //START OF DOCUMENT READY FUNCTION
 
 
 
-function clickCalender(date,nb){
+    function clickCalender(date,nb){
+        months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-    $("#resultClick").html("Details <br> Date: <b>" +
-                            date + "</b><br/>Total Events: <b>" +
-                        (nb === null ? "0" : nb) + "</b>"
-                    );
-                    var d1=date.getDate();
-                    var m1=date.getMonth();
-                    var y1=date.getFullYear();
+        // $("#resultClick").html("Details <br> Date: <b>" +
+        //     date + "</b><br/>Total Events: <b>" +
+        //     (nb === null ? "0" : nb) + "</b>"
+        // );
+        var d1=date.getDate();
+        var m1=date.getMonth();
+        var y1=date.getFullYear();
+        $("#resultClick").html("Date: <b>" +
+            months[m1] + " " + d1 + ", " + y1 + "</b><br/>Total Events: <b>" +
+            (nb === null ? "0" : nb) + "</b>"
+        );
+        var eventNum=1;
 
-                    var eventNum=1;
-                    for (var i = 0; i < data.length; i++) {
+        for (var i = 0; i < dataJson.length; i++) {
 
-                       if(data[i].date != undefined ){
-                            var dateTo=new Date(data[i].date);
-                            var d2=dateTo.getDate();
-                            var m2=dateTo.getMonth();
-                            var y2=dateTo.getFullYear();
-                            if (d1 == d2 && m1==m2 && y1==y2) {
+            if(dataJson[i].date != undefined ){
+                var dateTo=new Date(dataJson[i].date);
+                var d2=dateTo.getDate();
+                var m2=dateTo.getMonth();
+                var y2=dateTo.getFullYear();
+                if (d1 == d2 && m1==m2 && y1==y2) {
 
-                                var stateL=data[i].abbrev;
-                                var stateCharacters = stateL.substring(0, 2).toUpperCase();
-                                var selected_state=$("#states_field  option:selected").val();
+                    var stateL=dataJson[i].abbrev;
+                    var stateCharacters = stateL.substring(0, 2).toUpperCase();
+                    var selected_state=$("#states_field  option:selected").val();
 
-                                var lastChars = stateL.substring(2, stateL.length);
-                                lastChars=lastChars.toUpperCase();
+                    var lastChars = stateL.substring(2, stateL.length);
+                    lastChars=lastChars.toUpperCase();
 
-                                if(selected_state=='all' || selected_state==stateCharacters){
+                    if(selected_state=='all' || selected_state==stateCharacters){
 
-                                    if(
-                                        ($('#checkbox-S').is(":checked") && lastChars.indexOf('S') > -1) ||
-                                        ($('#checkbox-D').is(":checked") && lastChars.indexOf('D') > -1) ||
-                                        ($('#checkbox-M').is(":checked") && lastChars.indexOf('M') > -1) ||
-                                        ($('#checkbox-E').is(":checked") && lastChars.indexOf('E') > -1) ||
-                                        ($('#checkbox-W').is(":checked") && lastChars.indexOf('W') > -1) ||
-                                        ($('#checkbox-N').is(":checked") && lastChars.indexOf('N') > -1) )
-                                        {
-                                            if(data[i].url == undefined){
-                                                $("#resultClick").append("<br> <span > no URL found to register for event " + eventNum  +"</span> ");
-                                            }else{
-                                                $("#resultClick").append("<br> <a href='" + data[i].url +"'> Click to register event "+ eventNum  +"</a> ");
-                                            }
-                                            eventNum = eventNum+1;
-                                        }
-                                }
-
+                        if(
+                            ($('#checkbox-S').is(":checked") && lastChars.indexOf('S') > -1) ||
+                            ($('#checkbox-D').is(":checked") && lastChars.charAt(0)=='D') ||
+                            ($('#checkbox-M').is(":checked") && lastChars.indexOf('M') > -1) ||
+                            ($('#checkbox-E').is(":checked") && lastChars.indexOf('E') > -1) ||
+                            ($('#checkbox-W').is(":checked") && lastChars.indexOf('W') > -1) ||
+                            ($('#checkbox-N').is(":checked") && lastChars.indexOf('N') > -1) )
+                        {
+                            if(dataJson[i].url == undefined){
+                                $("#resultClick").append("<br> <span > no URL found for event " + eventNum  +"</span> ");
+                            }else{
+                                $("#resultClick").append("<br> Event "+ eventNum +
+                                    ": " +
+                                    dataJson[i].location + " " +
+                                    dataJson[i].street + ", " + dataJson[i].citystatezip +
+                                    " <a href='" +
+                                    dataJson[i].url +"'> " + dataJson[i].url +
+                                    "</a> ");
                             }
+                            eventNum = eventNum+1;
                         }
                     }
 
-}
+                }
+            }
+        }
+
+    }
 </script>
 
 
